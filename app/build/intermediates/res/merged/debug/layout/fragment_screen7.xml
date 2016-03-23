@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context="com.neonto.exportedByUser_s969932972038319.MSD.Screen7Fragment" >
+        <com.neonto.exportedByUser_s969932972038319.MSD.Screen7BackgroundShapeView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mBackgroundShape"
+            android:layout_marginLeft="0.0mm"
+            android:layout_marginTop="0.0mm"
+        />
+    
+    <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/flowScrollView"
+       >
+      <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+            <com.neonto.exportedByUser_s969932972038319.MSD.Screen7Image2View
+                android:layout_width="256.0px"
+                android:layout_height="145.0px"
+                android:id="@+id/mImage2"
+                android:layout_marginLeft="0.0px"
+                android:layout_marginTop="0.0mm"
+            />
+    
+            <com.neonto.exportedByUser_s969932972038319.MSD.Screen7ImageView
+                android:layout_width="142.0px"
+                android:layout_height="213.0px"
+                android:id="@+id/mImage"
+                android:layout_marginLeft="0.0px"
+                android:layout_marginTop="0.0mm"
+            />
+    
+      </RelativeLayout>
+    </ScrollView>
+    
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mbutton_351740"
+            android:textColor="@color/action"
+            android:gravity="center_horizontal|center_vertical"
+            android:textSize="15.6dp"
+            android:background="@drawable/screen7_button"
+            android:paddingLeft="4.3px"
+            android:paddingRight="4.3px"
+            android:id="@+id/mButton"
+            android:layout_marginLeft="25.36mm"
+            android:layout_marginTop="56.28mm"
+        />
+    
+</RelativeLayout>
+<!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/src/main/res/layout/fragment_screen7.xml -->

@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context="com.neonto.exportedByUser_s969932972038319.MSD.MENUFragment" >
+        <com.neonto.exportedByUser_s969932972038319.MSD.MENUBackgroundShapeView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mBackgroundShape"
+            android:layout_marginLeft="0.0mm"
+            android:layout_marginTop="0.0mm"
+        />
+    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/mtext_488116"
+            android:textColor="@color/base_text"
+            android:gravity="center_horizontal"
+            android:textSize="19.6dp"
+            android:id="@+id/mText"
+            android:layout_marginLeft="-0.35mm"
+            android:layout_marginTop="7.27mm"
+        />
+    
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mbutton_64510"
+            android:textColor="@color/action"
+            android:gravity="center_horizontal|center_vertical"
+            android:textSize="15.6dp"
+            android:background="@drawable/m_e_n_u_button"
+            android:paddingLeft="4.3px"
+            android:paddingRight="4.3px"
+            android:id="@+id/mButton"
+            android:layout_marginLeft="-3.13mm"
+            android:layout_marginTop="16.57mm"
+        />
+    
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mbutton2_1037082"
+            android:textColor="@color/action"
+            android:gravity="center_horizontal|center_vertical"
+            android:textSize="15.6dp"
+            android:background="@drawable/m_e_n_u_button2"
+            android:paddingLeft="4.3px"
+            android:paddingRight="4.3px"
+            android:id="@+id/mButton2"
+            android:layout_marginLeft="-3.06mm"
+            android:layout_marginTop="24.77mm"
+        />
+    
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mbutton3_775522"
+            android:textColor="@color/action"
+            android:gravity="center_horizontal|center_vertical"
+            android:textSize="15.6dp"
+            android:background="@drawable/m_e_n_u_button3"
+            android:paddingLeft="4.3px"
+            android:paddingRight="4.3px"
+            android:id="@+id/mButton3"
+            android:layout_marginLeft="-3.08mm"
+            android:layout_marginTop="32.93mm"
+        />
+    
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mbutton4_944200"
+            android:textColor="#fefefe"
+            android:gravity="center_horizontal|center_vertical"
+            android:textSize="15.6dp"
+            android:background="@drawable/m_e_n_u_button4"
+            android:paddingLeft="4.3px"
+            android:paddingRight="4.3px"
+            android:id="@+id/mButton4"
+            android:layout_marginLeft="-3.12mm"
+            android:layout_marginTop="40.96mm"
+        />
+    
+</RelativeLayout>
+<!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/src/main/res/layout/fragment_m_e_n_u.xml -->
