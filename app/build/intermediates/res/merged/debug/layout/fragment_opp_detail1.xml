@@ -28,7 +28,7 @@
         android:weightSum="1">
             <com.neonto.exportedByUser_s969932972038319.MSD.OppDetail1ImageView
                 android:layout_width="725.0px"
-                android:layout_height="276.0px"
+                android:layout_height="332.0px"
                 android:id="@+id/mImage"
                 android:layout_marginLeft="0.0mm"
                 android:layout_marginTop="12.89mm"
@@ -421,21 +421,21 @@
                 android:textSize="0.0dp"
                 android:background="?android:attr/selectableItemBackground"
                 android:id="@+id/mHotspot2"
-                android:layout_marginLeft="30.89mm"
+                android:layout_marginLeft="30.98mm"
                 android:layout_marginTop="0.0mm"
             />
     
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/mbutton2_167583"
+                android:text="@string/mfixedbutton_167583"
                 android:textColor="#fefefe"
                 android:gravity="center_horizontal|center_vertical"
                 android:textSize="15.6dp"
                 android:background="?android:attr/selectableItemBackground"
                 android:paddingLeft="4.3px"
                 android:paddingRight="4.3px"
-                android:id="@+id/mButton2"
+                android:id="@+id/mFixedButton"
                 android:layout_marginLeft="20.94mm"
                 android:layout_marginTop="1.35mm"
             />
@@ -446,15 +446,15 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/mfixedbutton_225378"
+            android:text="@string/mbutton_225378"
             android:textColor="#fefefe"
             android:gravity="center_horizontal|center_vertical"
             android:textSize="15.6dp"
             android:textStyle="bold"
-            android:background="@drawable/opp_detail1_fixed_button"
+            android:background="@drawable/opp_detail1_button"
             android:paddingLeft="4.3px"
             android:paddingRight="4.3px"
-            android:id="@+id/mFixedButton"
+            android:id="@+id/mButton"
             android:layout_marginLeft="0.0mm"
             android:layout_marginTop="92.77mm"
         />
@@ -513,4 +513,4 @@
         />
     
 </RelativeLayout>
-<!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/src/main/res/layout/fragment_opp_detail1.xml -->
+<!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/src/main/res/layout/fragment_opp_detail1.xml -->

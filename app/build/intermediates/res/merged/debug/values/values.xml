@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -18,20 +18,20 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="action">#0091d5</color>
     <color name="app_background">#ffffff</color>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
     <eat-comment/>
     <color name="background_floating_material_dark">#ff424242</color>
     <color name="background_floating_material_light">#ffeeeeee</color>
     <color name="background_material_dark">#ff303030</color>
     <color name="background_material_light">#ffeeeeee</color>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="base_text">#000000</color>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
@@ -41,7 +41,7 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/MSD%20(MSD2).google_play_services/google-play-services_lib/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/MSD%20(MSD2).google_play_services/google-play-services_lib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_signin_btn_dark_text_default">@android:color/white</color>
@@ -53,7 +53,7 @@
     <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
     <color name="common_signin_btn_light_text_focused">#FF737373</color>
     <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
@@ -70,11 +70,11 @@
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
     <color name="material_deep_teal_500">#ff009688</color>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="primary">#3d4c63</color>
     <color name="primary_dark">#1b222c</color>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">#ff000000</color>
     <color name="primary_dark_material_light">#ff757575</color>
@@ -86,10 +86,10 @@
     <color name="primary_text_disabled_material_light">#39000000</color>
     <color name="ripple_material_dark">#40ffffff</color>
     <color name="ripple_material_light">#40000000</color>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="secondary_text">#7f000000</color>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
     <eat-comment/>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
@@ -97,7 +97,7 @@
     <color name="secondary_text_disabled_material_light">#24000000</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/MSD%20(MSD2).google_play_services/google-play-services_lib/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/MSD%20(MSD2).google_play_services/google-play-services_lib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
     <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
@@ -140,7 +140,7 @@
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
     <declare-styleable name="WalletFragmentOptions"><attr format="enum" name="appTheme"><enum name="holo_dark" value="0"/><enum name="holo_light" value="1"/></attr><attr format="enum" name="environment"><enum name="production" value="1"/><enum name="sandbox" value="0"/><enum name="strict_sandbox" value="2"/></attr><attr format="reference" name="fragmentStyle"/><attr format="enum" name="fragmentMode"><enum name="buyButton" value="1"/><enum name="selectionDetails" value="2"/></attr></declare-styleable>
     <declare-styleable name="WalletFragmentStyle"><attr format="dimension" name="buyButtonHeight"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="dimension" name="buyButtonWidth"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="enum" name="buyButtonText"><enum name="buy_with_google" value="1"/><enum name="buy_now" value="2"/><enum name="book_now" value="3"/><enum name="donate_with_google" value="4"/></attr><attr format="enum" name="buyButtonAppearance"><enum name="classic" value="1"/><enum name="grayscale" value="2"/><enum name="monochrome" value="3"/></attr><attr format="reference" name="maskedWalletDetailsTextAppearance"/><attr format="reference" name="maskedWalletDetailsHeaderTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsBackground"/><attr format="reference" name="maskedWalletDetailsButtonTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsButtonBackground"/><attr format="color" name="maskedWalletDetailsLogoTextColor"/><attr format="enum" name="maskedWalletDetailsLogoImageType"><enum name="classic" value="1"/><enum name="monochrome" value="2"/></attr></declare-styleable>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
     <dimen name="abc_action_bar_default_padding_material">4dp</dimen>
@@ -195,10 +195,10 @@
     <item name="split_action_bar" type="id"/>
     <item name="up" type="id"/>
     <integer name="abc_max_action_buttons">2</integer>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/MSD%20(MSD2).google_play_services/google-play-services_lib/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/MSD%20(MSD2).google_play_services/google-play-services_lib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <integer name="google_play_services_version">6587000</integer>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
@@ -216,13 +216,13 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/MSD%20(MSD2).google_play_services/google-play-services_lib/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/MSD%20(MSD2).google_play_services/google-play-services_lib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="accept">Accept</string>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">MSD</string>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/MSD%20(MSD2).google_play_services/google-play-services_lib/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/MSD%20(MSD2).google_play_services/google-play-services_lib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="common_android_wear_notification_needs_update_text">An application requires an update to the Android Wear app.</string>
     <string name="common_android_wear_update_text">This app won\'t run unless you update the Android Wear app.</string>
@@ -255,50 +255,118 @@
     <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
     <string name="create_calendar_title">Create calendar event</string>
     <string name="decline">Decline</string>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="mbutton2_1037082">MY INFO</string>
     <string name="mbutton2_120772">Register\n</string>
-    <string name="mbutton2_167583"/>
+    <string name="mbutton2_13464">Save</string>
     <string name="mbutton2_189291">REGISTER</string>
+    <string name="mbutton2_232600">THIS WEEK</string>
+    <string name="mbutton2_239649">THIS WEEK</string>
+    <string name="mbutton2_248298">Upcoming</string>
     <string name="mbutton2_522524">THIS WEEK</string>
+    <string name="mbutton2_586834">THIS WEEK</string>
+    <string name="mbutton2_634162">THIS WEEK</string>
+    <string name="mbutton2_77460">Upcoming</string>
+    <string name="mbutton2_788991">Upcoming</string>
+    <string name="mbutton2_92677">Upcoming</string>
+    <string name="mbutton3_1001680">Cancel</string>
+    <string name="mbutton3_1018628">RECOMMENDED</string>
+    <string name="mbutton3_126709">Completed</string>
+    <string name="mbutton3_232695">Completed</string>
     <string name="mbutton3_274809">RECOMMENDED</string>
+    <string name="mbutton3_314748">Completed</string>
+    <string name="mbutton3_388399">RECOMMENDED</string>
+    <string name="mbutton3_587420">RECOMMENDED</string>
+    <string name="mbutton3_682871">Completed</string>
     <string name="mbutton3_775522">MY OPPORTUNITIES</string>
+    <string name="mbutton3_806651">RECOMMENDED</string>
+    <string name="mbutton4_1043227">Saved</string>
+    <string name="mbutton4_192414">Workshop</string>
+    <string name="mbutton4_257198">Public</string>
+    <string name="mbutton4_321115">Saved</string>
     <string name="mbutton4_576492">Workshop</string>
+    <string name="mbutton4_619531">Saved</string>
+    <string name="mbutton4_923757">Workshop</string>
+    <string name="mbutton4_94309">Saved</string>
     <string name="mbutton4_944200">LOG OUT</string>
+    <string name="mbutton5_1016839">CO-OP</string>
     <string name="mbutton5_1026808">CO-OP</string>
+    <string name="mbutton5_805887">CO-OP</string>
+    <string name="mbutton6_720970">Volunteer</string>
     <string name="mbutton6_741308">Volunteer</string>
+    <string name="mbutton6_791607">Volunteer</string>
+    <string name="mbutton7_47544">Talk</string>
+    <string name="mbutton7_531965">Talk</string>
     <string name="mbutton7_756735">Talk</string>
     <string name="mbutton_1044627">ALL</string>
+    <string name="mbutton_123058">In Progress</string>
     <string name="mbutton_125355">REGISTER</string>
-    <string name="mbutton_351740">New button</string>
+    <string name="mbutton_210923">In Progress</string>
+    <string name="mbutton_217544">ALL</string>
+    <string name="mbutton_225378">REGISTER</string>
+    <string name="mbutton_263001">In Progress</string>
+    <string name="mbutton_272254">ALL</string>
     <string name="mbutton_523005">LOG IN</string>
     <string name="mbutton_625199">Edit</string>
     <string name="mbutton_64510">HOME</string>
     <string name="mbutton_659954">REGISTER</string>
+    <string name="mbutton_740601">ALL</string>
+    <string name="mbutton_753737">In Progress</string>
+    <string name="mbutton_775137">Upload Photo</string>
     <string name="mbutton_807099">Terms &amp; Conditions\n</string>
-    <string name="mfixedbutton_225378">REGISTER</string>
+    <string name="mbutton_815746">COMPLETE</string>
+    <string name="mbutton_960114">ALL</string>
+    <string name="mfixedbutton_117987"/>
+    <string name="mfixedbutton_167583"/>
+    <string name="mfixedbutton_362467"/>
+    <string name="mfixedbutton_398487"/>
+    <string name="mfixedbutton_500197"/>
+    <string name="mfixedbutton_606398"/>
+    <string name="mfixedbutton_715661"/>
+    <string name="mfixedbutton_808481"/>
+    <string name="mfixedbutton_808912"/>
+    <string name="mfixedbutton_812133"/>
     <string name="mfixedbutton_871009"/>
     <string name="mfixedbutton_882995"/>
+    <string name="mfixedbutton_989697"/>
+    <string name="mfixedbutton_999450"/>
+    <string name="mtext10_127017">FRI, APR 1, 19:00</string>
     <string name="mtext10_263206">C Kent</string>
     <string name="mtext10_349236">C Kent</string>
     <string name="mtext10_406616">C Kent</string>
+    <string name="mtext10_467623">FRI, APR 1, 19:00</string>
     <string name="mtext10_551755">FRI, APR 1, 19:00</string>
+    <string name="mtext10_598412">FRI, APR 1, 19:00</string>
     <string name="mtext10_75264">Professional &amp; Personal Effectiveness</string>
+    <string name="mtext10_783813">C.Smith</string>
+    <string name="mtext11_1014585">April Fool Specil Event!</string>
+    <string name="mtext11_103052">D. Gold</string>
     <string name="mtext11_146505">April Fool Specil Event!</string>
     <string name="mtext11_173207">Well-Being</string>
     <string name="mtext11_188999">D Gold\n</string>
+    <string name="mtext11_534881">April Fool Specil Event!</string>
     <string name="mtext11_787233">D Gold\n</string>
+    <string name="mtext11_964505">April Fool Specil Event!</string>
     <string name="mtext11_994194">D Gold\n</string>
+    <string name="mtext12_203825">Curry Student Center</string>
     <string name="mtext12_236331">E Cooper</string>
     <string name="mtext12_310773">E Cooper</string>
+    <string name="mtext12_483084">Curry Student Center</string>
+    <string name="mtext12_636871">E. Gover</string>
     <string name="mtext12_82010">RECOMMENDED OPPORTUNITIES\n</string>
+    <string name="mtext12_892550">Curry Student Center</string>
     <string name="mtext12_943725">Curry Student Center</string>
     <string name="mtext12_962173">E Cooper</string>
+    <string name="mtext13_161584">40 PTS\n</string>
     <string name="mtext13_201014">40 PTS\n</string>
+    <string name="mtext13_556882">40 PTS\n</string>
     <string name="mtext13_677182">SIMILIAR OPPORTUNITIES:</string>
     <string name="mtext13_810045">SIMILIAR OPPORTUNITIES:</string>
     <string name="mtext13_89886">SIMILIAR OPPORTUNITIES:</string>
+    <string name="mtext13_999215">40 PTS\n</string>
+    <string name="mtext14_306573">Categories:</string>
+    <string name="mtext14_339380">Categories:</string>
     <string name="mtext14_490345">Categories:</string>
     <string name="mtext14_500007">FRI, APR 1, 19:00</string>
     <string name="mtext14_711933">Web development tips &amp; tricks</string>
@@ -336,70 +404,128 @@
     <string name="mtext21_663911">40 PTS</string>
     <string name="mtext21_669688">40 PTS</string>
     <string name="mtext21_964618">60 PTS</string>
-    <string name="mtext22_603100">Good evening</string>
+    <string name="mtext22_603100">Good morning</string>
+    <string name="mtext22_802278">Good morning</string>
+    <string name="mtext2_184223">MY OPPORTUNITIES</string>
     <string name="mtext2_317050">MON, MAY 2, 15:00</string>
+    <string name="mtext2_32778">Edit Profile\n</string>
+    <string name="mtext2_334789">Thu, Feb 4, 12:00</string>
+    <string name="mtext2_362745">Good morning</string>
+    <string name="mtext2_370270">A. Johnson</string>
+    <string name="mtext2_412300">Showing search result for: April</string>
+    <string name="mtext2_489097">Showing search result for: Talk</string>
     <string name="mtext2_609297">CATLR Gamified Learning Tracker</string>
     <string name="mtext2_720445">Alice Bob</string>
-    <string name="mtext2_881985">THU, MAR 24, 18:30\n</string>
+    <string name="mtext2_87113">Thu, Feb 4, 12:00</string>
+    <string name="mtext2_881985">THU, MAR 29, 18:30\n</string>
     <string name="mtext2_894793">CATLR Gamified Learning Tracker</string>
+    <string name="mtext2_943342">Thu, Feb 4, 12:00</string>
     <string name="mtext2_95189">FRI, APR 1, 19:00</string>
     <string name="mtext2_965595">HOME</string>
+    <string name="mtext2_997900">HOME</string>
     <string name="mtext3_1034173">Web development tips &amp; tricks</string>
+    <string name="mtext3_1042818">Alice</string>
+    <string name="mtext3_134146">Career Fair</string>
     <string name="mtext3_179909">Don’t have an accout?</string>
+    <string name="mtext3_44819">First Name: </string>
+    <string name="mtext3_553113">BIO: \nI am a senior undergrad student major in Digital Media. Huge fan in pirate!!! \n\nHere’s a link to my webPage:\nhttp://guesswhat.com/a.johnson</string>
     <string name="mtext3_645306">April Fool Special Event!</string>
+    <string name="mtext3_656533">Alice</string>
+    <string name="mtext3_697003">Career Fair</string>
     <string name="mtext3_781778">Alice</string>
     <string name="mtext3_817578">BIO: I am awesome!!!</string>
+    <string name="mtext3_824278">Search Result</string>
+    <string name="mtext3_83829">Career Fair</string>
     <string name="mtext3_961064">Are safe injection facilities for heroin users a step in the right direction?</string>
     <string name="mtext4_17556">DESCRIPTION: \nWorried about the required skill level? If you know basic HTML &amp; CSS, then this event is for you.</string>
+    <string name="mtext4_23052">100 PTS</string>
     <string name="mtext4_328089">60 points to the next level</string>
+    <string name="mtext4_354761">DESCRIPTION:\nStart planning your day now! Don\'t miss your chance to talk with employers who are hiring for co-op or full-time opportunities.</string>
     <string name="mtext4_396209">Level 1</string>
     <string name="mtext4_50472">DESCRIPTION:\nSay Hi to April. This is a exeiting event to welcome the first day of April, also celebrate spring season.</string>
+    <string name="mtext4_529050">100 PTS</string>
+    <string name="mtext4_552482">60 points to the next level</string>
+    <string name="mtext4_577747">60 points to the next level</string>
     <string name="mtext4_666683">DESCRIPTION:\nWith heroin- related deaths jumping 39 percent from 2012 to 2013. Now one U.S. com­mu­nity has pro­posed an inno­v­a­tive strategy to help combat the scourge, which is rav­aging cities and towns nationwide.</string>
+    <string name="mtext4_968863">Last Name: </string>
     <string name="mtext5_1034765">LOCATION:\nCurry Student Center</string>
+    <string name="mtext5_112126">1</string>
+    <string name="mtext5_153280">LOCATION:\nCabot Cage and Solomon Court</string>
     <string name="mtext5_413259">LOCATION:\nEll Hall</string>
+    <string name="mtext5_447152">LOCATION:\nCabot Cage and Solomon Court</string>
+    <string name="mtext5_448382">LOCATION:\nCabot Cage and Solomon Court</string>
+    <string name="mtext5_561721">BIO: </string>
     <string name="mtext5_723081">LOCATION: \nDodge Hall</string>
+    <string name="mtext5_769244">1</string>
     <string name="mtext5_784287">40/1000 pts</string>
     <string name="mtext5_875221">1</string>
     <string name="mtext6_1034144">THU, MAR 24, 18:30</string>
+    <string name="mtext6_144792">THU, MAR 24, 18:30</string>
+    <string name="mtext6_147276">CONTACT:\nhttp://www.northeastern.edu/careers/about/</string>
+    <string name="mtext6_158255">THU, MAR 24, 18:30</string>
+    <string name="mtext6_221438">THU, MAR 24, 18:30</string>
     <string name="mtext6_230414">Your Progress:</string>
     <string name="mtext6_464813">CONTACT:\n Mr. Joe Smith\n (123)-456-7890\nsmith.j@husky.neu.edu</string>
     <string name="mtext6_471265">CONTACT:\n Mr. Joe Smith\n (123)-456-7890\nsmith.j@husky.neu.edu</string>
+    <string name="mtext6_964728">Visibility:</string>
     <string name="mtext6_984895">CONTACT:\n Mr. Joe Smith\n (123)-456-7890\nsmith.j@husky.neu.edu</string>
     <string name="mtext7_275386">Intellectual Agility</string>
+    <string name="mtext7_279665">Web development tips &amp; tricks</string>
+    <string name="mtext7_371485">Web development tips &amp; tricks</string>
     <string name="mtext7_388097">Web development tips &amp; tricks</string>
+    <string name="mtext7_399640">ATTENDEES:</string>
     <string name="mtext7_538294">ATTENDEES:</string>
     <string name="mtext7_615141">ATTENDEES:</string>
+    <string name="mtext7_756441">Web development tips &amp; tricks</string>
     <string name="mtext7_96703">ATTENDEES:</string>
     <string name="mtext8_1003245">Dodge Hall\n</string>
+    <string name="mtext8_212361">Dodge Hall\n</string>
     <string name="mtext8_356238">Global Mindset</string>
+    <string name="mtext8_685560">Dodge Hall\n</string>
     <string name="mtext8_801738">A Johnson\n</string>
+    <string name="mtext8_82371">Dodge Hall\n</string>
     <string name="mtext8_926745">A Johnson\n</string>
+    <string name="mtext8_936200">A. Lee</string>
     <string name="mtext8_966895">A Johnson\n</string>
     <string name="mtext9_1019006">OPPORTUNITY DETAIL</string>
+    <string name="mtext9_350429">OPPORTUNITY DETAIL</string>
     <string name="mtext9_586032">OPPORTUNITY DETAIL</string>
     <string name="mtext9_809914">OPPORTUNITY DETAIL</string>
     <string name="mtext9_830773">MY INFO</string>
+    <string name="mtext_1015640">Search Result</string>
     <string name="mtext_117502">B Lee\n</string>
+    <string name="mtext_125717">MY OPPORTUNITIES</string>
     <string name="mtext_128662">Social Consciousness &amp; Interpersonal Commitment</string>
+    <string name="mtext_166808">MY INFO</string>
+    <string name="mtext_236151">Level 3</string>
     <string name="mtext_237247">100 PTS\n</string>
+    <string name="mtext_269120">MY OPPORTUNITIES</string>
+    <string name="mtext_347168">HOME</string>
+    <string name="mtext_353415">B. Cooper</string>
     <string name="mtext_488116">MENU</string>
+    <string name="mtext_621317">100 PTS\n</string>
+    <string name="mtext_757556">100 PTS\n</string>
     <string name="mtext_78753">MSD</string>
     <string name="mtext_790106">B Lee\n</string>
     <string name="mtext_846516">MSD</string>
+    <string name="mtext_855313">100 PTS\n</string>
     <string name="mtext_862113">B Lee\n</string>
+    <string name="mtext_885469">MY OPPORTUNITIES</string>
+    <string name="mtextarea_283984"> I am awesome!</string>
     <string name="placeholder_mfield2_383116">Password</string>
     <string name="placeholder_mfield2_47032">Password</string>
+    <string name="placeholder_mfield2_508913">Bob</string>
     <string name="placeholder_mfield3_203016">First Name</string>
     <string name="placeholder_mfield4_555896">Last Name</string>
     <string name="placeholder_mfield_1024299">Username</string>
     <string name="placeholder_mfield_514616">Username</string>
-    <string name="placeholder_mfield_52499">Search opportunites</string>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/MSD%20(MSD2).google_play_services/google-play-services_lib/unspecified/res/values/values.xml -->
+    <string name="placeholder_mfield_609183">Alice</string>
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/MSD%20(MSD2).google_play_services/google-play-services_lib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
     <string name="store_picture_title">Save image</string>
     <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light">
         <item name="colorAccent">@color/action</item>
@@ -408,7 +534,7 @@
         <item name="android:textColorPrimary">@android:color/white</item>
         <!-- Customize your theme here. -->
     </style>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>
@@ -1388,7 +1514,7 @@
         <item name="windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
     </style>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/MSD%20(MSD2).google_play_services/google-play-services_lib/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/MSD%20(MSD2).google_play_services/google-play-services_lib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="Theme.IAPTheme" parent="android:Theme">
     <item name="android:windowIsTranslucent">true</item>
@@ -1398,14 +1524,14 @@
     <item name="android:windowIsFloating">true</item>
     <item name="android:backgroundDimEnabled">false</item>
   </style>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
     <eat-comment/>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
     <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/MSD%20(MSD2).google_play_services/google-play-services_lib/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/MSD%20(MSD2).google_play_services/google-play-services_lib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="WalletFragmentDefaultButtonTextAppearance">
         <item name="android:textColor">@color/wallet_primary_text_holo_light</item>
@@ -1439,7 +1565,7 @@
         <item name="maskedWalletDetailsLogoTextColor">@color/wallet_bright_foreground_holo_dark</item>
         <item name="maskedWalletDetailsLogoImageType">classic</item>
     </style>
-    <!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
+    <!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values/values.xml -->
     <eat-comment/>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar"/>
     <style name="Widget.AppCompat.ActionBar.Solid" parent="Base.Widget.AppCompat.ActionBar.Solid"/>

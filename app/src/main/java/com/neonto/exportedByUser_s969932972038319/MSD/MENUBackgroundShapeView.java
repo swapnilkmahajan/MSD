@@ -61,7 +61,7 @@ public class MENUBackgroundShapeView extends View {
         path.close();
         paint = new Paint(Paint.ANTI_ALIAS_FLAG);
         paint.setStyle(Paint.Style.FILL);
-        paint.setARGB(255, 47, 60, 81);
+        paint.setARGB(255, 47, 59, 80);
         canvas.drawPath(path, paint);
     }
 

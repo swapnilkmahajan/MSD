@@ -75,6 +75,7 @@ public class MyInfoFragment extends Fragment {
     private TextView mText20;
     private TextView mText21;
     private Button mHotspot2;
+    private Button mFixedButton;
     private MyInfoImage2View mImage2;
     private ImageButton mIconButton;
     private TextView mText9;
@@ -123,6 +124,7 @@ public class MyInfoFragment extends Fragment {
         mText20 = (TextView) rootView.findViewById(R.id.mText20);
         mText21 = (TextView) rootView.findViewById(R.id.mText21);
         mHotspot2 = (Button) rootView.findViewById(R.id.mHotspot2);
+        mFixedButton = (Button) rootView.findViewById(R.id.mFixedButton);
         mImage2 = (MyInfoImage2View) rootView.findViewById(R.id.mImage2);
         mIconButton = (ImageButton) rootView.findViewById(R.id.mIconButton);
         mText9 = (TextView) rootView.findViewById(R.id.mText9);
@@ -136,6 +138,14 @@ public class MyInfoFragment extends Fragment {
 
         
         mButton.setTransformationMethod(null);
+        mButton.setOnClickListener(new View.OnClickListener() {
+           public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), EditInfoActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+                getActivity().startActivity(intent);
+        
+           }
+        });
 
         
 
@@ -190,6 +200,9 @@ public class MyInfoFragment extends Fragment {
         
            }
         });
+
+        
+        mFixedButton.setTransformationMethod(null);
 
         
         mIconButton.setOnClickListener(new View.OnClickListener() {
@@ -397,10 +410,10 @@ public class MyInfoFragment extends Fragment {
         }
         
         ArrayList<LayoutDesc> layoutDescs_mBackgroundShape = new ArrayList<LayoutDesc>();
-        layoutDescs_mBackgroundShape.add(new LayoutDesc(10, 0.0f, -48.0f, 0.0f, 720.0f, 1328.0f));  // 720*1280 px
+        layoutDescs_mBackgroundShape.add(new LayoutDesc(10, -1.0f, -48.0f, 0.0f, 721.0f, 1328.0f));  // 720*1280 px
         layoutDescs_mBackgroundShape.add(new LayoutDesc(2, 0.0f, -21.0f, 0.0f, 240.0f, 341.0f));  // 240*320 px
-        layoutDescs_mBackgroundShape.add(new LayoutDesc(12, 0.0f, -60.0f, 0.0f, 1080.0f, 1980.0f));  // 1080*1920 px
-        layoutDescs_mBackgroundShape.add(new LayoutDesc(8, 0.0f, -34.0f, 0.0f, 480.0f, 834.0f));  // 480*800 px
+        layoutDescs_mBackgroundShape.add(new LayoutDesc(12, -1.0f, -60.0f, 0.0f, 1081.0f, 1980.0f));  // 1080*1920 px
+        layoutDescs_mBackgroundShape.add(new LayoutDesc(8, -1.0f, -34.0f, 0.0f, 481.0f, 834.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mBackgroundShape = mOverrideElementLayoutDescriptors.get("backgroundShape");
             if (override_mBackgroundShape != null) {
@@ -437,10 +450,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mImage, dm, layoutDescs_mImage, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mImage3 = new ArrayList<LayoutDesc>();
-        layoutDescs_mImage3.add(new LayoutDesc(10, 0.0f, 177.0f, LayoutDesc.NO_VALUE, 260.0f, 248.0f));  // 720*1280 px
-        layoutDescs_mImage3.add(new LayoutDesc(2, 0.0f, 77.0f, LayoutDesc.NO_VALUE, 113.0f, 108.0f));  // 240*320 px
-        layoutDescs_mImage3.add(new LayoutDesc(12, 0.0f, 222.0f, LayoutDesc.NO_VALUE, 328.0f, 313.0f));  // 1080*1920 px
-        layoutDescs_mImage3.add(new LayoutDesc(8, 0.0f, 125.0f, LayoutDesc.NO_VALUE, 185.0f, 176.0f));  // 480*800 px
+        layoutDescs_mImage3.add(new LayoutDesc(10, 227.0f, 179.0f, LayoutDesc.NO_VALUE, 260.0f, 248.0f));  // 720*1280 px
+        layoutDescs_mImage3.add(new LayoutDesc(2, 99.0f, 78.0f, LayoutDesc.NO_VALUE, 113.0f, 108.0f));  // 240*320 px
+        layoutDescs_mImage3.add(new LayoutDesc(12, 287.0f, 224.0f, LayoutDesc.NO_VALUE, 328.0f, 313.0f));  // 1080*1920 px
+        layoutDescs_mImage3.add(new LayoutDesc(8, 161.0f, 127.0f, LayoutDesc.NO_VALUE, 185.0f, 176.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mImage3 = mOverrideElementLayoutDescriptors.get("image3");
             if (override_mImage3 != null) {
@@ -454,17 +467,17 @@ public class MyInfoFragment extends Fragment {
         layoutDescs_mImage3.get(1).contentTransformMatricesString = "[0.397058824, 0.0, 0.0, 0.397058824, -15.367647059, 0.0]; [0.397058824, 0.0, 0.0, 0.397058824, -15.367647059, 0.0]";
         layoutDescs_mImage3.get(2).contentTransformMatricesString = "[1.150735294, 0.0, 0.0, 1.150735294, -44.283088235, 0.0]; [1.150735294, 0.0, 0.0, 1.150735294, -44.283088235, 0.0]";
         layoutDescs_mImage3.get(3).contentTransformMatricesString = "[0.647058824, 0.0, 0.0, 0.647058824, -24.617647059, 0.0]; [0.647058824, 0.0, 0.0, 0.647058824, -24.617647059, 0.0]";
-        layoutDescs_mImage3.get(0).offsetInFlow = -410.12f;
-        layoutDescs_mImage3.get(1).offsetInFlow = -178.26f;
-        layoutDescs_mImage3.get(2).offsetInFlow = -517.28f;
-        layoutDescs_mImage3.get(3).offsetInFlow = -290.84f;
+        layoutDescs_mImage3.get(0).offsetInFlow = -408.15f;
+        layoutDescs_mImage3.get(1).offsetInFlow = -177.4f;
+        layoutDescs_mImage3.get(2).offsetInFlow = -514.79f;
+        layoutDescs_mImage3.get(3).offsetInFlow = -289.44f;
         applyLayoutToView(mImage3, dm, layoutDescs_mImage3, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mText2 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText2.add(new LayoutDesc(10, 0.0f, 425.0f, LayoutDesc.NO_VALUE, 714.82f, 63.0f));  // 720*1280 px
-        layoutDescs_mText2.add(new LayoutDesc(2, 0.0f, 185.0f, LayoutDesc.NO_VALUE, 310.70f, 30.0f));  // 240*320 px
-        layoutDescs_mText2.add(new LayoutDesc(12, 0.0f, 535.0f, LayoutDesc.NO_VALUE, 901.6f, 77.0f));  // 1080*1920 px
-        layoutDescs_mText2.add(new LayoutDesc(8, 0.0f, 301.0f, LayoutDesc.NO_VALUE, 506.92f, 46.0f));  // 480*800 px
+        layoutDescs_mText2.add(new LayoutDesc(10, 0.0f, 427.0f, LayoutDesc.NO_VALUE, 714.82f, 63.0f));  // 720*1280 px
+        layoutDescs_mText2.add(new LayoutDesc(2, 0.0f, 186.0f, LayoutDesc.NO_VALUE, 310.70f, 30.0f));  // 240*320 px
+        layoutDescs_mText2.add(new LayoutDesc(12, 0.0f, 537.0f, LayoutDesc.NO_VALUE, 901.6f, 77.0f));  // 1080*1920 px
+        layoutDescs_mText2.add(new LayoutDesc(8, 0.0f, 303.0f, LayoutDesc.NO_VALUE, 506.92f, 46.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText2 = mOverrideElementLayoutDescriptors.get("text2");
             if (override_mText2 != null) {
@@ -481,10 +494,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mText2, dm, layoutDescs_mText2, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText3 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText3.add(new LayoutDesc(10, 0.0f, 482.0f, LayoutDesc.NO_VALUE, 721.17f, 45.0f));  // 720*1280 px
-        layoutDescs_mText3.add(new LayoutDesc(2, 0.0f, 209.0f, LayoutDesc.NO_VALUE, 313.46f, 24.0f));  // 240*320 px
-        layoutDescs_mText3.add(new LayoutDesc(12, 0.0f, 606.0f, LayoutDesc.NO_VALUE, 909.61f, 55.0f));  // 1080*1920 px
-        layoutDescs_mText3.add(new LayoutDesc(8, 0.0f, 341.0f, LayoutDesc.NO_VALUE, 511.42f, 34.0f));  // 480*800 px
+        layoutDescs_mText3.add(new LayoutDesc(10, 0.0f, 484.0f, LayoutDesc.NO_VALUE, 721.17f, 45.0f));  // 720*1280 px
+        layoutDescs_mText3.add(new LayoutDesc(2, 0.0f, 210.0f, LayoutDesc.NO_VALUE, 313.46f, 24.0f));  // 240*320 px
+        layoutDescs_mText3.add(new LayoutDesc(12, 0.0f, 608.0f, LayoutDesc.NO_VALUE, 909.61f, 55.0f));  // 1080*1920 px
+        layoutDescs_mText3.add(new LayoutDesc(8, 0.0f, 343.0f, LayoutDesc.NO_VALUE, 511.42f, 34.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText3 = mOverrideElementLayoutDescriptors.get("text3");
             if (override_mText3 != null) {
@@ -501,10 +514,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mText3, dm, layoutDescs_mText3, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mButton = new ArrayList<LayoutDesc>();
-        layoutDescs_mButton.add(new LayoutDesc(10, 0.0f, 525.0f, LayoutDesc.NO_VALUE, 105.72f, 39.04f));  // 720*1280 px
-        layoutDescs_mButton.add(new LayoutDesc(2, 0.0f, 229.0f, LayoutDesc.NO_VALUE, 45.95f, 16.97f));  // 240*320 px
-        layoutDescs_mButton.add(new LayoutDesc(12, 0.0f, 660.0f, LayoutDesc.NO_VALUE, 133.34f, 49.24f));  // 1080*1920 px
-        layoutDescs_mButton.add(new LayoutDesc(8, 0.0f, 372.0f, LayoutDesc.NO_VALUE, 74.97f, 27.69f));  // 480*800 px
+        layoutDescs_mButton.add(new LayoutDesc(10, 308.0f, 525.0f, LayoutDesc.NO_VALUE, 105.72f, 39.04f));  // 720*1280 px
+        layoutDescs_mButton.add(new LayoutDesc(2, 134.0f, 229.0f, LayoutDesc.NO_VALUE, 45.95f, 16.97f));  // 240*320 px
+        layoutDescs_mButton.add(new LayoutDesc(12, 388.0f, 660.0f, LayoutDesc.NO_VALUE, 133.34f, 49.24f));  // 1080*1920 px
+        layoutDescs_mButton.add(new LayoutDesc(8, 218.0f, 373.0f, LayoutDesc.NO_VALUE, 74.97f, 27.69f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mButton = mOverrideElementLayoutDescriptors.get("button");
             if (override_mButton != null) {
@@ -514,17 +527,17 @@ public class MyInfoFragment extends Fragment {
                 }
             }
         }
-        layoutDescs_mButton.get(0).offsetInFlow = 4.25f;
-        layoutDescs_mButton.get(1).offsetInFlow = 1.85f;
-        layoutDescs_mButton.get(2).offsetInFlow = 5.36f;
-        layoutDescs_mButton.get(3).offsetInFlow = 3.01f;
+        layoutDescs_mButton.get(0).offsetInFlow = 2.27f;
+        layoutDescs_mButton.get(1).offsetInFlow = 0.99f;
+        layoutDescs_mButton.get(2).offsetInFlow = 2.87f;
+        layoutDescs_mButton.get(3).offsetInFlow = 1.61f;
         applyLayoutToView(mButton, dm, layoutDescs_mButton, false, true);
 
         ArrayList<LayoutDesc> layoutDescs_mRectangle = new ArrayList<LayoutDesc>();
-        layoutDescs_mRectangle.add(new LayoutDesc(10, 0.0f, 585.04f, LayoutDesc.NO_VALUE, 643.0f, 91.0f));  // 720*1280 px
-        layoutDescs_mRectangle.add(new LayoutDesc(2, 0.0f, 254.97f, LayoutDesc.NO_VALUE, 279.48f, 39.55f));  // 240*320 px
-        layoutDescs_mRectangle.add(new LayoutDesc(12, 0.0f, 736.24f, LayoutDesc.NO_VALUE, 811.01f, 114.78f));  // 1080*1920 px
-        layoutDescs_mRectangle.add(new LayoutDesc(8, 0.0f, 414.69f, LayoutDesc.NO_VALUE, 455.98f, 64.53f));  // 480*800 px
+        layoutDescs_mRectangle.add(new LayoutDesc(10, 39.0f, 579.04f, LayoutDesc.NO_VALUE, 643.0f, 91.0f));  // 720*1280 px
+        layoutDescs_mRectangle.add(new LayoutDesc(2, 17.0f, 252.97f, LayoutDesc.NO_VALUE, 279.48f, 39.55f));  // 240*320 px
+        layoutDescs_mRectangle.add(new LayoutDesc(12, 49.0f, 728.24f, LayoutDesc.NO_VALUE, 811.01f, 114.78f));  // 1080*1920 px
+        layoutDescs_mRectangle.add(new LayoutDesc(8, 28.0f, 411.69f, LayoutDesc.NO_VALUE, 455.98f, 64.53f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mRectangle = mOverrideElementLayoutDescriptors.get("rectangle");
             if (override_mRectangle != null) {
@@ -534,17 +547,17 @@ public class MyInfoFragment extends Fragment {
                 }
             }
         }
-        layoutDescs_mRectangle.get(0).offsetInFlow = 21.25f;
-        layoutDescs_mRectangle.get(1).offsetInFlow = 9.24f;
-        layoutDescs_mRectangle.get(2).offsetInFlow = 26.81f;
-        layoutDescs_mRectangle.get(3).offsetInFlow = 15.07f;
+        layoutDescs_mRectangle.get(0).offsetInFlow = 15.29f;
+        layoutDescs_mRectangle.get(1).offsetInFlow = 6.65f;
+        layoutDescs_mRectangle.get(2).offsetInFlow = 19.29f;
+        layoutDescs_mRectangle.get(3).offsetInFlow = 10.85f;
         applyLayoutToView(mRectangle, dm, layoutDescs_mRectangle, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mRectangle2 = new ArrayList<LayoutDesc>();
-        layoutDescs_mRectangle2.add(new LayoutDesc(10, 0.0f, 587.04f, LayoutDesc.NO_VALUE, 213.0f, 84.86f));  // 720*1280 px
-        layoutDescs_mRectangle2.add(new LayoutDesc(2, 0.0f, 255.52f, LayoutDesc.NO_VALUE, 92.58f, 36.88f));  // 240*320 px
-        layoutDescs_mRectangle2.add(new LayoutDesc(12, 0.0f, 738.02f, LayoutDesc.NO_VALUE, 268.66f, 107.03f));  // 1080*1920 px
-        layoutDescs_mRectangle2.add(new LayoutDesc(8, 0.0f, 416.22f, LayoutDesc.NO_VALUE, 151.05f, 60.18f));  // 480*800 px
+        layoutDescs_mRectangle2.add(new LayoutDesc(10, 40.0f, 581.04f, LayoutDesc.NO_VALUE, 213.0f, 84.86f));  // 720*1280 px
+        layoutDescs_mRectangle2.add(new LayoutDesc(2, 17.0f, 253.52f, LayoutDesc.NO_VALUE, 92.58f, 36.88f));  // 240*320 px
+        layoutDescs_mRectangle2.add(new LayoutDesc(12, 50.0f, 730.02f, LayoutDesc.NO_VALUE, 268.66f, 107.03f));  // 1080*1920 px
+        layoutDescs_mRectangle2.add(new LayoutDesc(8, 28.0f, 413.22f, LayoutDesc.NO_VALUE, 151.05f, 60.18f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mRectangle2 = mOverrideElementLayoutDescriptors.get("rectangle2");
             if (override_mRectangle2 != null) {
@@ -561,10 +574,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mRectangle2, dm, layoutDescs_mRectangle2, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mText4 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText4.add(new LayoutDesc(10, 0.0f, 671.90f, LayoutDesc.NO_VALUE, 246.15f, 56.0f));  // 720*1280 px
-        layoutDescs_mText4.add(new LayoutDesc(2, 0.0f, 292.41f, LayoutDesc.NO_VALUE, 106.99f, 28.0f));  // 240*320 px
-        layoutDescs_mText4.add(new LayoutDesc(12, 0.0f, 845.05f, LayoutDesc.NO_VALUE, 310.47f, 70.0f));  // 1080*1920 px
-        layoutDescs_mText4.add(new LayoutDesc(8, 0.0f, 476.40f, LayoutDesc.NO_VALUE, 174.56f, 41.0f));  // 480*800 px
+        layoutDescs_mText4.add(new LayoutDesc(10, 38.0f, 665.90f, LayoutDesc.NO_VALUE, 246.15f, 56.0f));  // 720*1280 px
+        layoutDescs_mText4.add(new LayoutDesc(2, 17.0f, 290.41f, LayoutDesc.NO_VALUE, 106.99f, 28.0f));  // 240*320 px
+        layoutDescs_mText4.add(new LayoutDesc(12, 48.0f, 837.05f, LayoutDesc.NO_VALUE, 310.47f, 70.0f));  // 1080*1920 px
+        layoutDescs_mText4.add(new LayoutDesc(8, 27.0f, 473.40f, LayoutDesc.NO_VALUE, 174.56f, 41.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText4 = mOverrideElementLayoutDescriptors.get("text4");
             if (override_mText4 != null) {
@@ -581,10 +594,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mText4, dm, layoutDescs_mText4, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText5 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText5.add(new LayoutDesc(10, 0.0f, 672.90f, LayoutDesc.NO_VALUE, 296.80f, 56.0f));  // 720*1280 px
-        layoutDescs_mText5.add(new LayoutDesc(2, 0.0f, 293.41f, LayoutDesc.NO_VALUE, 129.01f, 28.0f));  // 240*320 px
-        layoutDescs_mText5.add(new LayoutDesc(12, 0.0f, 847.05f, LayoutDesc.NO_VALUE, 374.36f, 70.0f));  // 1080*1920 px
-        layoutDescs_mText5.add(new LayoutDesc(8, 0.0f, 476.40f, LayoutDesc.NO_VALUE, 210.48f, 41.0f));  // 480*800 px
+        layoutDescs_mText5.add(new LayoutDesc(10, 381.0f, 670.90f, LayoutDesc.NO_VALUE, 296.80f, 56.0f));  // 720*1280 px
+        layoutDescs_mText5.add(new LayoutDesc(2, 166.0f, 292.41f, LayoutDesc.NO_VALUE, 129.01f, 28.0f));  // 240*320 px
+        layoutDescs_mText5.add(new LayoutDesc(12, 480.0f, 844.05f, LayoutDesc.NO_VALUE, 374.36f, 70.0f));  // 1080*1920 px
+        layoutDescs_mText5.add(new LayoutDesc(8, 270.0f, 476.40f, LayoutDesc.NO_VALUE, 210.48f, 41.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText5 = mOverrideElementLayoutDescriptors.get("text5");
             if (override_mText5 != null) {
@@ -594,17 +607,17 @@ public class MyInfoFragment extends Fragment {
                 }
             }
         }
-        layoutDescs_mText5.get(0).offsetInFlow = -49.46f;
-        layoutDescs_mText5.get(1).offsetInFlow = -21.50f;
-        layoutDescs_mText5.get(2).offsetInFlow = -62.38f;
-        layoutDescs_mText5.get(3).offsetInFlow = -35.07f;
+        layoutDescs_mText5.get(0).offsetInFlow = -45.50f;
+        layoutDescs_mText5.get(1).offsetInFlow = -19.77f;
+        layoutDescs_mText5.get(2).offsetInFlow = -57.38f;
+        layoutDescs_mText5.get(3).offsetInFlow = -32.26f;
         applyLayoutToView(mText5, dm, layoutDescs_mText5, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText6 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText6.add(new LayoutDesc(10, 0.0f, 734.90f, LayoutDesc.NO_VALUE, 718.52f, 63.0f));  // 720*1280 px
-        layoutDescs_mText6.add(new LayoutDesc(2, 0.0f, 320.41f, LayoutDesc.NO_VALUE, 312.31f, 30.0f));  // 240*320 px
-        layoutDescs_mText6.add(new LayoutDesc(12, 0.0f, 926.05f, LayoutDesc.NO_VALUE, 906.27f, 77.0f));  // 1080*1920 px
-        layoutDescs_mText6.add(new LayoutDesc(8, 0.0f, 519.40f, LayoutDesc.NO_VALUE, 509.54f, 46.0f));  // 480*800 px
+        layoutDescs_mText6.add(new LayoutDesc(10, -4.0f, 732.90f, LayoutDesc.NO_VALUE, 718.52f, 63.0f));  // 720*1280 px
+        layoutDescs_mText6.add(new LayoutDesc(2, -2.0f, 319.41f, LayoutDesc.NO_VALUE, 312.31f, 30.0f));  // 240*320 px
+        layoutDescs_mText6.add(new LayoutDesc(12, -5.0f, 923.05f, LayoutDesc.NO_VALUE, 906.27f, 77.0f));  // 1080*1920 px
+        layoutDescs_mText6.add(new LayoutDesc(8, -3.0f, 519.40f, LayoutDesc.NO_VALUE, 509.54f, 46.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText6 = mOverrideElementLayoutDescriptors.get("text6");
             if (override_mText6 != null) {
@@ -621,10 +634,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mText6, dm, layoutDescs_mText6, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mRectangle3 = new ArrayList<LayoutDesc>();
-        layoutDescs_mRectangle3.add(new LayoutDesc(10, 0.0f, 791.90f, LayoutDesc.NO_VALUE, 638.41f, 506.23f));  // 720*1280 px
-        layoutDescs_mRectangle3.add(new LayoutDesc(2, 0.0f, 344.41f, LayoutDesc.NO_VALUE, 277.49f, 220.03f));  // 240*320 px
-        layoutDescs_mRectangle3.add(new LayoutDesc(12, 0.0f, 997.05f, LayoutDesc.NO_VALUE, 805.23f, 638.50f));  // 1080*1920 px
-        layoutDescs_mRectangle3.add(new LayoutDesc(8, 0.0f, 559.40f, LayoutDesc.NO_VALUE, 452.73f, 358.99f));  // 480*800 px
+        layoutDescs_mRectangle3.add(new LayoutDesc(10, 39.0f, 789.90f, LayoutDesc.NO_VALUE, 638.41f, 506.23f));  // 720*1280 px
+        layoutDescs_mRectangle3.add(new LayoutDesc(2, 17.0f, 343.41f, LayoutDesc.NO_VALUE, 277.49f, 220.03f));  // 240*320 px
+        layoutDescs_mRectangle3.add(new LayoutDesc(12, 49.0f, 994.05f, LayoutDesc.NO_VALUE, 805.23f, 638.50f));  // 1080*1920 px
+        layoutDescs_mRectangle3.add(new LayoutDesc(8, 27.0f, 559.40f, LayoutDesc.NO_VALUE, 452.73f, 358.99f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mRectangle3 = mOverrideElementLayoutDescriptors.get("rectangle3");
             if (override_mRectangle3 != null) {
@@ -641,10 +654,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mRectangle3, dm, layoutDescs_mRectangle3, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mText7 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText7.add(new LayoutDesc(10, 0.0f, 793.13f, LayoutDesc.NO_VALUE, 446.29f, 45.0f));  // 720*1280 px
-        layoutDescs_mText7.add(new LayoutDesc(2, 0.0f, 345.44f, LayoutDesc.NO_VALUE, 193.98f, 24.0f));  // 240*320 px
-        layoutDescs_mText7.add(new LayoutDesc(12, 0.0f, 998.55f, LayoutDesc.NO_VALUE, 562.90f, 55.0f));  // 1080*1920 px
-        layoutDescs_mText7.add(new LayoutDesc(8, 0.0f, 560.39f, LayoutDesc.NO_VALUE, 316.48f, 34.0f));  // 480*800 px
+        layoutDescs_mText7.add(new LayoutDesc(10, 43.0f, 791.13f, LayoutDesc.NO_VALUE, 446.29f, 45.0f));  // 720*1280 px
+        layoutDescs_mText7.add(new LayoutDesc(2, 18.0f, 344.44f, LayoutDesc.NO_VALUE, 193.98f, 24.0f));  // 240*320 px
+        layoutDescs_mText7.add(new LayoutDesc(12, 54.0f, 995.55f, LayoutDesc.NO_VALUE, 562.90f, 55.0f));  // 1080*1920 px
+        layoutDescs_mText7.add(new LayoutDesc(8, 30.0f, 560.39f, LayoutDesc.NO_VALUE, 316.48f, 34.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText7 = mOverrideElementLayoutDescriptors.get("text7");
             if (override_mText7 != null) {
@@ -661,10 +674,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mText7, dm, layoutDescs_mText7, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mRectangle4 = new ArrayList<LayoutDesc>();
-        layoutDescs_mRectangle4.add(new LayoutDesc(10, 0.0f, 836.13f, LayoutDesc.NO_VALUE, 295.0f, 37.0f));  // 720*1280 px
-        layoutDescs_mRectangle4.add(new LayoutDesc(2, 0.0f, 365.44f, LayoutDesc.NO_VALUE, 128.22f, 16.08f));  // 240*320 px
-        layoutDescs_mRectangle4.add(new LayoutDesc(12, 0.0f, 1052.55f, LayoutDesc.NO_VALUE, 372.08f, 46.67f));  // 1080*1920 px
-        layoutDescs_mRectangle4.add(new LayoutDesc(8, 0.0f, 591.39f, LayoutDesc.NO_VALUE, 209.20f, 26.24f));  // 480*800 px
+        layoutDescs_mRectangle4.add(new LayoutDesc(10, 43.0f, 834.13f, LayoutDesc.NO_VALUE, 295.0f, 37.0f));  // 720*1280 px
+        layoutDescs_mRectangle4.add(new LayoutDesc(2, 18.0f, 364.44f, LayoutDesc.NO_VALUE, 128.22f, 16.08f));  // 240*320 px
+        layoutDescs_mRectangle4.add(new LayoutDesc(12, 54.0f, 1049.55f, LayoutDesc.NO_VALUE, 372.08f, 46.67f));  // 1080*1920 px
+        layoutDescs_mRectangle4.add(new LayoutDesc(8, 30.0f, 591.39f, LayoutDesc.NO_VALUE, 209.20f, 26.24f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mRectangle4 = mOverrideElementLayoutDescriptors.get("rectangle4");
             if (override_mRectangle4 != null) {
@@ -681,10 +694,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mRectangle4, dm, layoutDescs_mRectangle4, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mText8 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText8.add(new LayoutDesc(10, 0.0f, 877.13f, LayoutDesc.NO_VALUE, 446.29f, 45.0f));  // 720*1280 px
-        layoutDescs_mText8.add(new LayoutDesc(2, 0.0f, 383.52f, LayoutDesc.NO_VALUE, 193.98f, 24.0f));  // 240*320 px
-        layoutDescs_mText8.add(new LayoutDesc(12, 0.0f, 1104.22f, LayoutDesc.NO_VALUE, 562.90f, 55.0f));  // 1080*1920 px
-        layoutDescs_mText8.add(new LayoutDesc(8, 0.0f, 620.63f, LayoutDesc.NO_VALUE, 316.48f, 34.0f));  // 480*800 px
+        layoutDescs_mText8.add(new LayoutDesc(10, 43.0f, 875.13f, LayoutDesc.NO_VALUE, 446.29f, 45.0f));  // 720*1280 px
+        layoutDescs_mText8.add(new LayoutDesc(2, 18.0f, 382.52f, LayoutDesc.NO_VALUE, 193.98f, 24.0f));  // 240*320 px
+        layoutDescs_mText8.add(new LayoutDesc(12, 54.0f, 1101.22f, LayoutDesc.NO_VALUE, 562.90f, 55.0f));  // 1080*1920 px
+        layoutDescs_mText8.add(new LayoutDesc(8, 30.0f, 620.63f, LayoutDesc.NO_VALUE, 316.48f, 34.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText8 = mOverrideElementLayoutDescriptors.get("text8");
             if (override_mText8 != null) {
@@ -701,10 +714,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mText8, dm, layoutDescs_mText8, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mRectangleCopy = new ArrayList<LayoutDesc>();
-        layoutDescs_mRectangleCopy.add(new LayoutDesc(10, 0.0f, 920.13f, LayoutDesc.NO_VALUE, 130.85f, 37.0f));  // 720*1280 px
-        layoutDescs_mRectangleCopy.add(new LayoutDesc(2, 0.0f, 403.52f, LayoutDesc.NO_VALUE, 56.87f, 16.08f));  // 240*320 px
-        layoutDescs_mRectangleCopy.add(new LayoutDesc(12, 0.0f, 1158.22f, LayoutDesc.NO_VALUE, 165.04f, 46.67f));  // 1080*1920 px
-        layoutDescs_mRectangleCopy.add(new LayoutDesc(8, 0.0f, 651.63f, LayoutDesc.NO_VALUE, 92.79f, 26.24f));  // 480*800 px
+        layoutDescs_mRectangleCopy.add(new LayoutDesc(10, 45.0f, 914.13f, LayoutDesc.NO_VALUE, 130.85f, 42.08f));  // 720*1280 px
+        layoutDescs_mRectangleCopy.add(new LayoutDesc(2, 19.0f, 400.52f, LayoutDesc.NO_VALUE, 56.87f, 18.29f));  // 240*320 px
+        layoutDescs_mRectangleCopy.add(new LayoutDesc(12, 57.0f, 1150.22f, LayoutDesc.NO_VALUE, 165.04f, 53.07f));  // 1080*1920 px
+        layoutDescs_mRectangleCopy.add(new LayoutDesc(8, 32.0f, 648.63f, LayoutDesc.NO_VALUE, 92.79f, 29.84f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mRectangleCopy = mOverrideElementLayoutDescriptors.get("rectangleCopy");
             if (override_mRectangleCopy != null) {
@@ -714,17 +727,17 @@ public class MyInfoFragment extends Fragment {
                 }
             }
         }
-        layoutDescs_mRectangleCopy.get(0).offsetInFlow = 4.25f;
-        layoutDescs_mRectangleCopy.get(1).offsetInFlow = 1.85f;
-        layoutDescs_mRectangleCopy.get(2).offsetInFlow = 5.36f;
-        layoutDescs_mRectangleCopy.get(3).offsetInFlow = 3.01f;
+        layoutDescs_mRectangleCopy.get(0).offsetInFlow = 0.17f;
+        layoutDescs_mRectangleCopy.get(1).offsetInFlow = 0.07f;
+        layoutDescs_mRectangleCopy.get(2).offsetInFlow = 0.21f;
+        layoutDescs_mRectangleCopy.get(3).offsetInFlow = 0.12f;
         applyLayoutToView(mRectangleCopy, dm, layoutDescs_mRectangleCopy, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mText = new ArrayList<LayoutDesc>();
-        layoutDescs_mText.add(new LayoutDesc(10, 0.0f, 961.13f, LayoutDesc.NO_VALUE, 406.97f, 84.0f));  // 720*1280 px
-        layoutDescs_mText.add(new LayoutDesc(2, 0.0f, 421.60f, LayoutDesc.NO_VALUE, 176.89f, 42.0f));  // 240*320 px
-        layoutDescs_mText.add(new LayoutDesc(12, 0.0f, 1209.89f, LayoutDesc.NO_VALUE, 513.31f, 104.0f));  // 1080*1920 px
-        layoutDescs_mText.add(new LayoutDesc(8, 0.0f, 680.86f, LayoutDesc.NO_VALUE, 288.60f, 62.0f));  // 480*800 px
+        layoutDescs_mText.add(new LayoutDesc(10, 43.0f, 960.21f, LayoutDesc.NO_VALUE, 406.97f, 84.0f));  // 720*1280 px
+        layoutDescs_mText.add(new LayoutDesc(2, 18.0f, 420.81f, LayoutDesc.NO_VALUE, 176.89f, 42.0f));  // 240*320 px
+        layoutDescs_mText.add(new LayoutDesc(12, 54.0f, 1208.29f, LayoutDesc.NO_VALUE, 513.31f, 104.0f));  // 1080*1920 px
+        layoutDescs_mText.add(new LayoutDesc(8, 30.0f, 681.47f, LayoutDesc.NO_VALUE, 288.60f, 62.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText = mOverrideElementLayoutDescriptors.get("text");
             if (override_mText != null) {
@@ -741,10 +754,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mText, dm, layoutDescs_mText, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mRectangleCopy2 = new ArrayList<LayoutDesc>();
-        layoutDescs_mRectangleCopy2.add(new LayoutDesc(10, 0.0f, 1043.13f, LayoutDesc.NO_VALUE, 192.47f, 37.0f));  // 720*1280 px
-        layoutDescs_mRectangleCopy2.add(new LayoutDesc(2, 0.0f, 459.60f, LayoutDesc.NO_VALUE, 83.66f, 16.08f));  // 240*320 px
-        layoutDescs_mRectangleCopy2.add(new LayoutDesc(12, 0.0f, 1312.89f, LayoutDesc.NO_VALUE, 242.76f, 46.67f));  // 1080*1920 px
-        layoutDescs_mRectangleCopy2.add(new LayoutDesc(8, 0.0f, 739.86f, LayoutDesc.NO_VALUE, 136.49f, 26.24f));  // 480*800 px
+        layoutDescs_mRectangleCopy2.add(new LayoutDesc(10, 43.0f, 1042.21f, LayoutDesc.NO_VALUE, 192.47f, 37.0f));  // 720*1280 px
+        layoutDescs_mRectangleCopy2.add(new LayoutDesc(2, 18.0f, 458.81f, LayoutDesc.NO_VALUE, 83.66f, 16.08f));  // 240*320 px
+        layoutDescs_mRectangleCopy2.add(new LayoutDesc(12, 54.0f, 1311.29f, LayoutDesc.NO_VALUE, 242.76f, 46.67f));  // 1080*1920 px
+        layoutDescs_mRectangleCopy2.add(new LayoutDesc(8, 30.0f, 740.47f, LayoutDesc.NO_VALUE, 136.49f, 26.24f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mRectangleCopy2 = mOverrideElementLayoutDescriptors.get("rectangleCopy2");
             if (override_mRectangleCopy2 != null) {
@@ -761,10 +774,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mRectangleCopy2, dm, layoutDescs_mRectangleCopy2, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mText10 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText10.add(new LayoutDesc(10, 0.0f, 1084.13f, LayoutDesc.NO_VALUE, 446.29f, 84.0f));  // 720*1280 px
-        layoutDescs_mText10.add(new LayoutDesc(2, 0.0f, 477.68f, LayoutDesc.NO_VALUE, 193.98f, 42.0f));  // 240*320 px
-        layoutDescs_mText10.add(new LayoutDesc(12, 0.0f, 1364.56f, LayoutDesc.NO_VALUE, 562.90f, 104.0f));  // 1080*1920 px
-        layoutDescs_mText10.add(new LayoutDesc(8, 0.0f, 769.10f, LayoutDesc.NO_VALUE, 316.48f, 62.0f));  // 480*800 px
+        layoutDescs_mText10.add(new LayoutDesc(10, 43.0f, 1083.21f, LayoutDesc.NO_VALUE, 446.29f, 84.0f));  // 720*1280 px
+        layoutDescs_mText10.add(new LayoutDesc(2, 18.0f, 476.89f, LayoutDesc.NO_VALUE, 193.98f, 42.0f));  // 240*320 px
+        layoutDescs_mText10.add(new LayoutDesc(12, 54.0f, 1362.96f, LayoutDesc.NO_VALUE, 562.90f, 104.0f));  // 1080*1920 px
+        layoutDescs_mText10.add(new LayoutDesc(8, 30.0f, 769.70f, LayoutDesc.NO_VALUE, 316.48f, 62.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText10 = mOverrideElementLayoutDescriptors.get("text10");
             if (override_mText10 != null) {
@@ -781,10 +794,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mText10, dm, layoutDescs_mText10, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mRectangleCopy3 = new ArrayList<LayoutDesc>();
-        layoutDescs_mRectangleCopy3.add(new LayoutDesc(10, 0.0f, 1166.13f, LayoutDesc.NO_VALUE, 236.02f, 37.0f));  // 720*1280 px
-        layoutDescs_mRectangleCopy3.add(new LayoutDesc(2, 0.0f, 515.68f, LayoutDesc.NO_VALUE, 102.58f, 16.08f));  // 240*320 px
-        layoutDescs_mRectangleCopy3.add(new LayoutDesc(12, 0.0f, 1467.56f, LayoutDesc.NO_VALUE, 297.69f, 46.67f));  // 1080*1920 px
-        layoutDescs_mRectangleCopy3.add(new LayoutDesc(8, 0.0f, 828.10f, LayoutDesc.NO_VALUE, 167.37f, 26.24f));  // 480*800 px
+        layoutDescs_mRectangleCopy3.add(new LayoutDesc(10, 43.0f, 1165.21f, LayoutDesc.NO_VALUE, 236.02f, 37.0f));  // 720*1280 px
+        layoutDescs_mRectangleCopy3.add(new LayoutDesc(2, 18.0f, 514.89f, LayoutDesc.NO_VALUE, 102.58f, 16.08f));  // 240*320 px
+        layoutDescs_mRectangleCopy3.add(new LayoutDesc(12, 54.0f, 1465.96f, LayoutDesc.NO_VALUE, 297.69f, 46.67f));  // 1080*1920 px
+        layoutDescs_mRectangleCopy3.add(new LayoutDesc(8, 30.0f, 828.70f, LayoutDesc.NO_VALUE, 167.37f, 26.24f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mRectangleCopy3 = mOverrideElementLayoutDescriptors.get("rectangleCopy3");
             if (override_mRectangleCopy3 != null) {
@@ -801,10 +814,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mRectangleCopy3, dm, layoutDescs_mRectangleCopy3, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mText11 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText11.add(new LayoutDesc(10, 0.0f, 1207.13f, LayoutDesc.NO_VALUE, 446.29f, 45.0f));  // 720*1280 px
-        layoutDescs_mText11.add(new LayoutDesc(2, 0.0f, 533.77f, LayoutDesc.NO_VALUE, 193.98f, 24.0f));  // 240*320 px
-        layoutDescs_mText11.add(new LayoutDesc(12, 0.0f, 1519.22f, LayoutDesc.NO_VALUE, 562.90f, 55.0f));  // 1080*1920 px
-        layoutDescs_mText11.add(new LayoutDesc(8, 0.0f, 857.34f, LayoutDesc.NO_VALUE, 316.48f, 34.0f));  // 480*800 px
+        layoutDescs_mText11.add(new LayoutDesc(10, 43.0f, 1206.21f, LayoutDesc.NO_VALUE, 446.29f, 45.0f));  // 720*1280 px
+        layoutDescs_mText11.add(new LayoutDesc(2, 18.0f, 532.97f, LayoutDesc.NO_VALUE, 193.98f, 24.0f));  // 240*320 px
+        layoutDescs_mText11.add(new LayoutDesc(12, 54.0f, 1517.63f, LayoutDesc.NO_VALUE, 562.90f, 55.0f));  // 1080*1920 px
+        layoutDescs_mText11.add(new LayoutDesc(8, 30.0f, 857.94f, LayoutDesc.NO_VALUE, 316.48f, 34.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText11 = mOverrideElementLayoutDescriptors.get("text11");
             if (override_mText11 != null) {
@@ -821,10 +834,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mText11, dm, layoutDescs_mText11, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mRectangleCopy4 = new ArrayList<LayoutDesc>();
-        layoutDescs_mRectangleCopy4.add(new LayoutDesc(10, 0.0f, 1250.13f, LayoutDesc.NO_VALUE, 71.07f, 37.0f));  // 720*1280 px
-        layoutDescs_mRectangleCopy4.add(new LayoutDesc(2, 0.0f, 553.77f, LayoutDesc.NO_VALUE, 30.89f, 16.08f));  // 240*320 px
-        layoutDescs_mRectangleCopy4.add(new LayoutDesc(12, 0.0f, 1573.22f, LayoutDesc.NO_VALUE, 89.64f, 46.67f));  // 1080*1920 px
-        layoutDescs_mRectangleCopy4.add(new LayoutDesc(8, 0.0f, 888.34f, LayoutDesc.NO_VALUE, 50.4f, 26.24f));  // 480*800 px
+        layoutDescs_mRectangleCopy4.add(new LayoutDesc(10, 43.0f, 1249.21f, LayoutDesc.NO_VALUE, 71.07f, 37.0f));  // 720*1280 px
+        layoutDescs_mRectangleCopy4.add(new LayoutDesc(2, 18.0f, 552.97f, LayoutDesc.NO_VALUE, 30.89f, 16.08f));  // 240*320 px
+        layoutDescs_mRectangleCopy4.add(new LayoutDesc(12, 54.0f, 1571.63f, LayoutDesc.NO_VALUE, 89.64f, 46.67f));  // 1080*1920 px
+        layoutDescs_mRectangleCopy4.add(new LayoutDesc(8, 30.0f, 888.94f, LayoutDesc.NO_VALUE, 50.4f, 26.24f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mRectangleCopy4 = mOverrideElementLayoutDescriptors.get("rectangleCopy4");
             if (override_mRectangleCopy4 != null) {
@@ -841,10 +854,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mRectangleCopy4, dm, layoutDescs_mRectangleCopy4, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mText12 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText12.add(new LayoutDesc(10, 4.0f, 1312.13f, LayoutDesc.NO_VALUE, 717.44f, 51.0f));  // 720*1280 px
-        layoutDescs_mText12.add(new LayoutDesc(2, 2.0f, 580.85f, LayoutDesc.NO_VALUE, 311.83f, 25.0f));  // 240*320 px
-        layoutDescs_mText12.add(new LayoutDesc(12, 5.0f, 1650.89f, LayoutDesc.NO_VALUE, 904.90f, 63.0f));  // 1080*1920 px
-        layoutDescs_mText12.add(new LayoutDesc(8, 3.0f, 931.58f, LayoutDesc.NO_VALUE, 508.77f, 38.0f));  // 480*800 px
+        layoutDescs_mText12.add(new LayoutDesc(10, 47.0f, 1311.21f, LayoutDesc.NO_VALUE, 717.44f, 51.0f));  // 720*1280 px
+        layoutDescs_mText12.add(new LayoutDesc(2, 20.0f, 580.06f, LayoutDesc.NO_VALUE, 311.83f, 25.0f));  // 240*320 px
+        layoutDescs_mText12.add(new LayoutDesc(12, 59.0f, 1649.30f, LayoutDesc.NO_VALUE, 904.90f, 63.0f));  // 1080*1920 px
+        layoutDescs_mText12.add(new LayoutDesc(8, 33.0f, 932.18f, LayoutDesc.NO_VALUE, 508.77f, 38.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText12 = mOverrideElementLayoutDescriptors.get("text12");
             if (override_mText12 != null) {
@@ -861,10 +874,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mText12, dm, layoutDescs_mText12, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mImageCopy = new ArrayList<LayoutDesc>();
-        layoutDescs_mImageCopy.add(new LayoutDesc(10, 64.0f, 1384.13f, LayoutDesc.NO_VALUE, 256.0f, 145.0f));  // 720*1280 px
-        layoutDescs_mImageCopy.add(new LayoutDesc(2, 28.0f, 611.85f, LayoutDesc.NO_VALUE, 111.0f, 63.0f));  // 240*320 px
-        layoutDescs_mImageCopy.add(new LayoutDesc(12, 81.0f, 1741.89f, LayoutDesc.NO_VALUE, 322.0f, 182.0f));  // 1080*1920 px
-        layoutDescs_mImageCopy.add(new LayoutDesc(8, 45.0f, 982.58f, LayoutDesc.NO_VALUE, 181.0f, 103.0f));  // 480*800 px
+        layoutDescs_mImageCopy.add(new LayoutDesc(10, 64.0f, 1383.21f, LayoutDesc.NO_VALUE, 256.0f, 145.0f));  // 720*1280 px
+        layoutDescs_mImageCopy.add(new LayoutDesc(2, 28.0f, 611.06f, LayoutDesc.NO_VALUE, 111.0f, 63.0f));  // 240*320 px
+        layoutDescs_mImageCopy.add(new LayoutDesc(12, 81.0f, 1740.30f, LayoutDesc.NO_VALUE, 322.0f, 182.0f));  // 1080*1920 px
+        layoutDescs_mImageCopy.add(new LayoutDesc(8, 45.0f, 983.18f, LayoutDesc.NO_VALUE, 181.0f, 103.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mImageCopy = mOverrideElementLayoutDescriptors.get("imageCopy");
             if (override_mImageCopy != null) {
@@ -885,10 +898,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mImageCopy, dm, layoutDescs_mImageCopy, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mText15 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText15.add(new LayoutDesc(10, 64.0f, 1529.13f, LayoutDesc.NO_VALUE, 446.29f, 40.0f));  // 720*1280 px
-        layoutDescs_mText15.add(new LayoutDesc(2, 28.0f, 674.85f, LayoutDesc.NO_VALUE, 193.98f, 21.0f));  // 240*320 px
-        layoutDescs_mText15.add(new LayoutDesc(12, 80.0f, 1923.89f, LayoutDesc.NO_VALUE, 562.90f, 49.0f));  // 1080*1920 px
-        layoutDescs_mText15.add(new LayoutDesc(8, 45.0f, 1085.58f, LayoutDesc.NO_VALUE, 316.48f, 30.0f));  // 480*800 px
+        layoutDescs_mText15.add(new LayoutDesc(10, 64.0f, 1528.21f, LayoutDesc.NO_VALUE, 446.29f, 40.0f));  // 720*1280 px
+        layoutDescs_mText15.add(new LayoutDesc(2, 28.0f, 674.06f, LayoutDesc.NO_VALUE, 193.98f, 21.0f));  // 240*320 px
+        layoutDescs_mText15.add(new LayoutDesc(12, 80.0f, 1922.30f, LayoutDesc.NO_VALUE, 562.90f, 49.0f));  // 1080*1920 px
+        layoutDescs_mText15.add(new LayoutDesc(8, 45.0f, 1086.18f, LayoutDesc.NO_VALUE, 316.48f, 30.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText15 = mOverrideElementLayoutDescriptors.get("text15");
             if (override_mText15 != null) {
@@ -905,10 +918,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mText15, dm, layoutDescs_mText15, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText14 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText14.add(new LayoutDesc(10, 72.0f, 1563.13f, LayoutDesc.NO_VALUE, 252.86f, 84.0f));  // 720*1280 px
-        layoutDescs_mText14.add(new LayoutDesc(2, 31.0f, 689.85f, LayoutDesc.NO_VALUE, 109.91f, 60.0f));  // 240*320 px
-        layoutDescs_mText14.add(new LayoutDesc(12, 90.0f, 1966.89f, LayoutDesc.NO_VALUE, 318.93f, 104.0f));  // 1080*1920 px
-        layoutDescs_mText14.add(new LayoutDesc(8, 51.0f, 1109.58f, LayoutDesc.NO_VALUE, 179.32f, 90.0f));  // 480*800 px
+        layoutDescs_mText14.add(new LayoutDesc(10, 72.0f, 1562.21f, LayoutDesc.NO_VALUE, 252.86f, 84.0f));  // 720*1280 px
+        layoutDescs_mText14.add(new LayoutDesc(2, 31.0f, 689.06f, LayoutDesc.NO_VALUE, 109.91f, 60.0f));  // 240*320 px
+        layoutDescs_mText14.add(new LayoutDesc(12, 90.0f, 1965.30f, LayoutDesc.NO_VALUE, 318.93f, 104.0f));  // 1080*1920 px
+        layoutDescs_mText14.add(new LayoutDesc(8, 51.0f, 1110.18f, LayoutDesc.NO_VALUE, 179.32f, 90.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText14 = mOverrideElementLayoutDescriptors.get("text14");
             if (override_mText14 != null) {
@@ -925,10 +938,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mText14, dm, layoutDescs_mText14, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText16 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText16.add(new LayoutDesc(10, 74.0f, 1641.13f, LayoutDesc.NO_VALUE, 446.29f, 40.0f));  // 720*1280 px
-        layoutDescs_mText16.add(new LayoutDesc(2, 32.0f, 743.85f, LayoutDesc.NO_VALUE, 193.98f, 21.0f));  // 240*320 px
-        layoutDescs_mText16.add(new LayoutDesc(12, 94.0f, 2064.89f, LayoutDesc.NO_VALUE, 562.90f, 49.0f));  // 1080*1920 px
-        layoutDescs_mText16.add(new LayoutDesc(8, 53.0f, 1193.58f, LayoutDesc.NO_VALUE, 316.48f, 30.0f));  // 480*800 px
+        layoutDescs_mText16.add(new LayoutDesc(10, 74.0f, 1640.21f, LayoutDesc.NO_VALUE, 446.29f, 40.0f));  // 720*1280 px
+        layoutDescs_mText16.add(new LayoutDesc(2, 32.0f, 743.06f, LayoutDesc.NO_VALUE, 193.98f, 21.0f));  // 240*320 px
+        layoutDescs_mText16.add(new LayoutDesc(12, 94.0f, 2063.30f, LayoutDesc.NO_VALUE, 562.90f, 49.0f));  // 1080*1920 px
+        layoutDescs_mText16.add(new LayoutDesc(8, 53.0f, 1194.18f, LayoutDesc.NO_VALUE, 316.48f, 30.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText16 = mOverrideElementLayoutDescriptors.get("text16");
             if (override_mText16 != null) {
@@ -945,10 +958,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mText16, dm, layoutDescs_mText16, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText17 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText17.add(new LayoutDesc(10, 72.0f, 1675.13f, LayoutDesc.NO_VALUE, 258.78f, 40.0f));  // 720*1280 px
-        layoutDescs_mText17.add(new LayoutDesc(2, 31.0f, 758.85f, LayoutDesc.NO_VALUE, 112.48f, 21.0f));  // 240*320 px
-        layoutDescs_mText17.add(new LayoutDesc(12, 90.0f, 2107.89f, LayoutDesc.NO_VALUE, 326.39f, 49.0f));  // 1080*1920 px
-        layoutDescs_mText17.add(new LayoutDesc(8, 51.0f, 1217.58f, LayoutDesc.NO_VALUE, 183.51f, 30.0f));  // 480*800 px
+        layoutDescs_mText17.add(new LayoutDesc(10, 72.0f, 1674.21f, LayoutDesc.NO_VALUE, 258.78f, 40.0f));  // 720*1280 px
+        layoutDescs_mText17.add(new LayoutDesc(2, 31.0f, 758.06f, LayoutDesc.NO_VALUE, 112.48f, 21.0f));  // 240*320 px
+        layoutDescs_mText17.add(new LayoutDesc(12, 90.0f, 2106.30f, LayoutDesc.NO_VALUE, 326.39f, 49.0f));  // 1080*1920 px
+        layoutDescs_mText17.add(new LayoutDesc(8, 51.0f, 1218.18f, LayoutDesc.NO_VALUE, 183.51f, 30.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText17 = mOverrideElementLayoutDescriptors.get("text17");
             if (override_mText17 != null) {
@@ -965,10 +978,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mText17, dm, layoutDescs_mText17, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mHotspot = new ArrayList<LayoutDesc>();
-        layoutDescs_mHotspot.add(new LayoutDesc(10, 51.0f, 1384.13f, LayoutDesc.NO_VALUE, 278.03f, 358.76f));  // 720*1280 px
-        layoutDescs_mHotspot.add(new LayoutDesc(2, 22.0f, 632.85f, LayoutDesc.NO_VALUE, 120.85f, 155.93f));  // 240*320 px
-        layoutDescs_mHotspot.add(new LayoutDesc(12, 64.0f, 1740.89f, LayoutDesc.NO_VALUE, 350.68f, 452.49f));  // 1080*1920 px
-        layoutDescs_mHotspot.add(new LayoutDesc(8, 36.0f, 1011.58f, LayoutDesc.NO_VALUE, 197.16f, 254.41f));  // 480*800 px
+        layoutDescs_mHotspot.add(new LayoutDesc(10, 51.0f, 1383.21f, LayoutDesc.NO_VALUE, 278.03f, 358.76f));  // 720*1280 px
+        layoutDescs_mHotspot.add(new LayoutDesc(2, 22.0f, 632.06f, LayoutDesc.NO_VALUE, 120.85f, 155.93f));  // 240*320 px
+        layoutDescs_mHotspot.add(new LayoutDesc(12, 64.0f, 1739.30f, LayoutDesc.NO_VALUE, 350.68f, 452.49f));  // 1080*1920 px
+        layoutDescs_mHotspot.add(new LayoutDesc(8, 36.0f, 1012.18f, LayoutDesc.NO_VALUE, 197.16f, 254.41f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mHotspot = mOverrideElementLayoutDescriptors.get("hotspot");
             if (override_mHotspot != null) {
@@ -985,10 +998,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mHotspot, dm, layoutDescs_mHotspot, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mImage4 = new ArrayList<LayoutDesc>();
-        layoutDescs_mImage4.add(new LayoutDesc(10, 370.0f, 1384.88f, LayoutDesc.NO_VALUE, 256.0f, 145.0f));  // 720*1280 px
-        layoutDescs_mImage4.add(new LayoutDesc(2, 161.0f, 632.78f, LayoutDesc.NO_VALUE, 111.0f, 63.0f));  // 240*320 px
-        layoutDescs_mImage4.add(new LayoutDesc(12, 467.0f, 1741.39f, LayoutDesc.NO_VALUE, 322.0f, 182.0f));  // 1080*1920 px
-        layoutDescs_mImage4.add(new LayoutDesc(8, 263.0f, 1011.99f, LayoutDesc.NO_VALUE, 181.0f, 103.0f));  // 480*800 px
+        layoutDescs_mImage4.add(new LayoutDesc(10, 370.0f, 1383.96f, LayoutDesc.NO_VALUE, 256.0f, 145.0f));  // 720*1280 px
+        layoutDescs_mImage4.add(new LayoutDesc(2, 161.0f, 631.99f, LayoutDesc.NO_VALUE, 111.0f, 63.0f));  // 240*320 px
+        layoutDescs_mImage4.add(new LayoutDesc(12, 467.0f, 1739.79f, LayoutDesc.NO_VALUE, 322.0f, 182.0f));  // 1080*1920 px
+        layoutDescs_mImage4.add(new LayoutDesc(8, 263.0f, 1012.59f, LayoutDesc.NO_VALUE, 181.0f, 103.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mImage4 = mOverrideElementLayoutDescriptors.get("image4");
             if (override_mImage4 != null) {
@@ -1009,10 +1022,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mImage4, dm, layoutDescs_mImage4, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mText18 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText18.add(new LayoutDesc(10, 367.0f, 1531.88f, LayoutDesc.NO_VALUE, 257.39f, 40.0f));  // 720*1280 px
-        layoutDescs_mText18.add(new LayoutDesc(2, 160.0f, 696.78f, LayoutDesc.NO_VALUE, 111.87f, 21.0f));  // 240*320 px
-        layoutDescs_mText18.add(new LayoutDesc(12, 463.0f, 1926.39f, LayoutDesc.NO_VALUE, 324.64f, 49.0f));  // 1080*1920 px
-        layoutDescs_mText18.add(new LayoutDesc(8, 260.0f, 1116.99f, LayoutDesc.NO_VALUE, 182.53f, 30.0f));  // 480*800 px
+        layoutDescs_mText18.add(new LayoutDesc(10, 367.0f, 1530.96f, LayoutDesc.NO_VALUE, 257.39f, 40.0f));  // 720*1280 px
+        layoutDescs_mText18.add(new LayoutDesc(2, 160.0f, 695.99f, LayoutDesc.NO_VALUE, 111.87f, 21.0f));  // 240*320 px
+        layoutDescs_mText18.add(new LayoutDesc(12, 463.0f, 1924.79f, LayoutDesc.NO_VALUE, 324.64f, 49.0f));  // 1080*1920 px
+        layoutDescs_mText18.add(new LayoutDesc(8, 260.0f, 1117.59f, LayoutDesc.NO_VALUE, 182.53f, 30.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText18 = mOverrideElementLayoutDescriptors.get("text18");
             if (override_mText18 != null) {
@@ -1029,10 +1042,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mText18, dm, layoutDescs_mText18, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText1 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText1.add(new LayoutDesc(10, 370.0f, 1565.88f, LayoutDesc.NO_VALUE, 254.80f, 84.0f));  // 720*1280 px
-        layoutDescs_mText1.add(new LayoutDesc(2, 161.0f, 711.78f, LayoutDesc.NO_VALUE, 110.75f, 42.0f));  // 240*320 px
-        layoutDescs_mText1.add(new LayoutDesc(12, 467.0f, 1969.39f, LayoutDesc.NO_VALUE, 321.37f, 104.0f));  // 1080*1920 px
-        layoutDescs_mText1.add(new LayoutDesc(8, 262.0f, 1140.99f, LayoutDesc.NO_VALUE, 180.69f, 62.0f));  // 480*800 px
+        layoutDescs_mText1.add(new LayoutDesc(10, 370.0f, 1564.96f, LayoutDesc.NO_VALUE, 254.80f, 84.0f));  // 720*1280 px
+        layoutDescs_mText1.add(new LayoutDesc(2, 161.0f, 710.99f, LayoutDesc.NO_VALUE, 110.75f, 42.0f));  // 240*320 px
+        layoutDescs_mText1.add(new LayoutDesc(12, 467.0f, 1967.79f, LayoutDesc.NO_VALUE, 321.37f, 104.0f));  // 1080*1920 px
+        layoutDescs_mText1.add(new LayoutDesc(8, 262.0f, 1141.59f, LayoutDesc.NO_VALUE, 180.69f, 62.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText1 = mOverrideElementLayoutDescriptors.get("text1");
             if (override_mText1 != null) {
@@ -1049,10 +1062,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mText1, dm, layoutDescs_mText1, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText20 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText20.add(new LayoutDesc(10, 373.0f, 1643.88f, LayoutDesc.NO_VALUE, 446.29f, 40.0f));  // 720*1280 px
-        layoutDescs_mText20.add(new LayoutDesc(2, 162.0f, 747.78f, LayoutDesc.NO_VALUE, 193.98f, 21.0f));  // 240*320 px
-        layoutDescs_mText20.add(new LayoutDesc(12, 470.0f, 2066.39f, LayoutDesc.NO_VALUE, 562.90f, 49.0f));  // 1080*1920 px
-        layoutDescs_mText20.add(new LayoutDesc(8, 265.0f, 1196.99f, LayoutDesc.NO_VALUE, 316.48f, 30.0f));  // 480*800 px
+        layoutDescs_mText20.add(new LayoutDesc(10, 373.0f, 1642.96f, LayoutDesc.NO_VALUE, 446.29f, 40.0f));  // 720*1280 px
+        layoutDescs_mText20.add(new LayoutDesc(2, 162.0f, 746.99f, LayoutDesc.NO_VALUE, 193.98f, 21.0f));  // 240*320 px
+        layoutDescs_mText20.add(new LayoutDesc(12, 470.0f, 2064.79f, LayoutDesc.NO_VALUE, 562.90f, 49.0f));  // 1080*1920 px
+        layoutDescs_mText20.add(new LayoutDesc(8, 265.0f, 1197.59f, LayoutDesc.NO_VALUE, 316.48f, 30.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText20 = mOverrideElementLayoutDescriptors.get("text20");
             if (override_mText20 != null) {
@@ -1069,10 +1082,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mText20, dm, layoutDescs_mText20, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText21 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText21.add(new LayoutDesc(10, 375.0f, 1682.88f, LayoutDesc.NO_VALUE, 260.01f, 40.0f));  // 720*1280 px
-        layoutDescs_mText21.add(new LayoutDesc(2, 163.0f, 764.78f, LayoutDesc.NO_VALUE, 113.01f, 21.0f));  // 240*320 px
-        layoutDescs_mText21.add(new LayoutDesc(12, 473.0f, 2116.39f, LayoutDesc.NO_VALUE, 327.95f, 49.0f));  // 1080*1920 px
-        layoutDescs_mText21.add(new LayoutDesc(8, 266.0f, 1224.99f, LayoutDesc.NO_VALUE, 184.39f, 30.0f));  // 480*800 px
+        layoutDescs_mText21.add(new LayoutDesc(10, 375.0f, 1681.96f, LayoutDesc.NO_VALUE, 260.01f, 40.0f));  // 720*1280 px
+        layoutDescs_mText21.add(new LayoutDesc(2, 163.0f, 763.99f, LayoutDesc.NO_VALUE, 113.01f, 21.0f));  // 240*320 px
+        layoutDescs_mText21.add(new LayoutDesc(12, 473.0f, 2114.79f, LayoutDesc.NO_VALUE, 327.95f, 49.0f));  // 1080*1920 px
+        layoutDescs_mText21.add(new LayoutDesc(8, 266.0f, 1225.59f, LayoutDesc.NO_VALUE, 184.39f, 30.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText21 = mOverrideElementLayoutDescriptors.get("text21");
             if (override_mText21 != null) {
@@ -1089,10 +1102,10 @@ public class MyInfoFragment extends Fragment {
         applyLayoutToView(mText21, dm, layoutDescs_mText21, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mHotspot2 = new ArrayList<LayoutDesc>();
-        layoutDescs_mHotspot2.add(new LayoutDesc(10, 360.0f, 1381.88f, LayoutDesc.NO_VALUE, 267.12f, 349.76f));  // 720*1280 px
-        layoutDescs_mHotspot2.add(new LayoutDesc(2, 156.0f, 633.78f, LayoutDesc.NO_VALUE, 116.10f, 152.02f));  // 240*320 px
-        layoutDescs_mHotspot2.add(new LayoutDesc(12, 454.0f, 1736.39f, LayoutDesc.NO_VALUE, 336.92f, 441.14f));  // 1080*1920 px
-        layoutDescs_mHotspot2.add(new LayoutDesc(8, 255.0f, 1010.99f, LayoutDesc.NO_VALUE, 189.43f, 248.03f));  // 480*800 px
+        layoutDescs_mHotspot2.add(new LayoutDesc(10, 360.0f, 1380.96f, LayoutDesc.NO_VALUE, 267.12f, 349.76f));  // 720*1280 px
+        layoutDescs_mHotspot2.add(new LayoutDesc(2, 156.0f, 632.99f, LayoutDesc.NO_VALUE, 116.10f, 152.02f));  // 240*320 px
+        layoutDescs_mHotspot2.add(new LayoutDesc(12, 454.0f, 1734.79f, LayoutDesc.NO_VALUE, 336.92f, 441.14f));  // 1080*1920 px
+        layoutDescs_mHotspot2.add(new LayoutDesc(8, 255.0f, 1011.59f, LayoutDesc.NO_VALUE, 189.43f, 248.03f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mHotspot2 = mOverrideElementLayoutDescriptors.get("hotspot2");
             if (override_mHotspot2 != null) {
@@ -1107,6 +1120,26 @@ public class MyInfoFragment extends Fragment {
         layoutDescs_mHotspot2.get(2).offsetInFlow = -423.09f;
         layoutDescs_mHotspot2.get(3).offsetInFlow = -237.88f;
         applyLayoutToView(mHotspot2, dm, layoutDescs_mHotspot2, true, true);
+
+        ArrayList<LayoutDesc> layoutDescs_mFixedButton = new ArrayList<LayoutDesc>();
+        layoutDescs_mFixedButton.add(new LayoutDesc(10, 265.0f, 1780.72f, LayoutDesc.NO_VALUE, 212.52f, 63.76f));  // 720*1280 px
+        layoutDescs_mFixedButton.add(new LayoutDesc(2, 115.0f, 807.01f, LayoutDesc.NO_VALUE, 92.37f, 27.71f));  // 240*320 px
+        layoutDescs_mFixedButton.add(new LayoutDesc(12, 335.0f, 2238.94f, LayoutDesc.NO_VALUE, 268.05f, 80.41f));  // 1080*1920 px
+        layoutDescs_mFixedButton.add(new LayoutDesc(8, 188.0f, 1294.62f, LayoutDesc.NO_VALUE, 150.71f, 45.21f));  // 480*800 px
+        if (mOverrideElementLayoutDescriptors != null) {
+            HashMap<String, ArrayList<LayoutDesc>> override_mFixedButton = mOverrideElementLayoutDescriptors.get("fixedButton");
+            if (override_mFixedButton != null) {
+                ArrayList<LayoutDesc> layoutDescs = override_mFixedButton.get("layoutDescs");
+                if (layoutDescs != null) {
+                    layoutDescs_mFixedButton = layoutDescs;
+                }
+            }
+        }
+        layoutDescs_mFixedButton.get(0).offsetInFlow = 50.03f;
+        layoutDescs_mFixedButton.get(1).offsetInFlow = 21.75f;
+        layoutDescs_mFixedButton.get(2).offsetInFlow = 63.10f;
+        layoutDescs_mFixedButton.get(3).offsetInFlow = 35.48f;
+        applyLayoutToView(mFixedButton, dm, layoutDescs_mFixedButton, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mImage2 = new ArrayList<LayoutDesc>();
         layoutDescs_mImage2.add(new LayoutDesc(10, 0.0f, -37.0f, LayoutDesc.NO_VALUE, 719.0f, 144.0f));  // 720*1280 px

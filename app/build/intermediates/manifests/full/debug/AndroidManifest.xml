@@ -26,7 +26,13 @@
         android:largeHeap="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.neonto.exportedByUser_s969932972038319.MSD.Screen7Activity"
+            android:name="com.neonto.exportedByUser_s969932972038319.MSD.OppDetail2Activity"
+            android:configChanges="orientation|screenSize"
+            android:label="MSD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.neonto.exportedByUser_s969932972038319.MSD.MyInfoActivity"
             android:configChanges="orientation|screenSize"
             android:label="MSD"
             android:screenOrientation="portrait" >
@@ -38,7 +44,91 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.neonto.exportedByUser_s969932972038319.MSD.MyInfoActivity"
+            android:name="com.neonto.exportedByUser_s969932972038319.MSD.Search1Activity"
+            android:configChanges="orientation|screenSize"
+            android:label="MSD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.neonto.exportedByUser_s969932972038319.MSD.MENUActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="MSD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.neonto.exportedByUser_s969932972038319.MSD.OppDetail3Activity"
+            android:configChanges="orientation|screenSize"
+            android:label="MSD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.neonto.exportedByUser_s969932972038319.MSD.RecomendedActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="MSD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.neonto.exportedByUser_s969932972038319.MSD.UpComingActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="MSD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.neonto.exportedByUser_s969932972038319.MSD.CompletedActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="MSD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.neonto.exportedByUser_s969932972038319.MSD.SavedActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="MSD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.neonto.exportedByUser_s969932972038319.MSD.Search2Activity"
+            android:configChanges="orientation|screenSize"
+            android:label="MSD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.neonto.exportedByUser_s969932972038319.MSD.ThusWeekActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="MSD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.neonto.exportedByUser_s969932972038319.MSD.OppDeatil0Activity"
+            android:configChanges="orientation|screenSize"
+            android:label="MSD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.neonto.exportedByUser_s969932972038319.MSD.OppDetail1Activity"
+            android:configChanges="orientation|screenSize"
+            android:label="MSD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.neonto.exportedByUser_s969932972038319.MSD.MyOppActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="MSD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.neonto.exportedByUser_s969932972038319.MSD.HOMEActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="MSD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.neonto.exportedByUser_s969932972038319.MSD.PublicProfileActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="MSD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.neonto.exportedByUser_s969932972038319.MSD.EditInfoActivity"
             android:configChanges="orientation|screenSize"
             android:label="MSD"
             android:screenOrientation="portrait" >
@@ -53,36 +143,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name="com.neonto.exportedByUser_s969932972038319.MSD.OppDetail2Activity"
-            android:configChanges="orientation|screenSize"
-            android:label="MSD"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.neonto.exportedByUser_s969932972038319.MSD.OppDetail3Activity"
-            android:configChanges="orientation|screenSize"
-            android:label="MSD"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.neonto.exportedByUser_s969932972038319.MSD.HOMEActivity"
-            android:configChanges="orientation|screenSize"
-            android:label="MSD"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.neonto.exportedByUser_s969932972038319.MSD.MENUActivity"
-            android:configChanges="orientation|screenSize"
-            android:label="MSD"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.neonto.exportedByUser_s969932972038319.MSD.OppDetail1Activity"
-            android:configChanges="orientation|screenSize"
-            android:label="MSD"
-            android:screenOrientation="portrait" >
         </activity>
 
         <meta-data

@@ -50,13 +50,13 @@ public class MyInfoRectangleCopyView extends View {
         
         super.onDraw(canvas);
         
-        canvas.scale(m_realLayoutWidthInPx/130.846259350f, m_realLayoutHeightInPx/37.0f);
-        canvas.translate(65.423129675f, 18.5f);
+        canvas.scale(m_realLayoutWidthInPx/130.846259350f, m_realLayoutHeightInPx/42.078125000f);
+        canvas.translate(65.423129675f, 21.039062500f);
         path = new Path();
-        path.moveTo(-65.42f, -18.5f);
-          path.lineTo(65.42f, -18.5f);
-        path.lineTo(65.42f, 18.5f);
-        path.lineTo(-65.42f, 18.5f);
+        path.moveTo(-65.42f, -21.04f);
+          path.lineTo(65.42f, -21.04f);
+        path.lineTo(65.42f, 21.04f);
+        path.lineTo(-65.42f, 21.04f);
         
         path.close();
         paint = new Paint(Paint.ANTI_ALIAS_FLAG);

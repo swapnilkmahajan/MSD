@@ -33,14 +33,29 @@
                 android:text=""
                 android:singleLine="true"
                 android:ems="10"
-                android:hint="@string/placeholder_mfield_52499"
                 android:inputType="textNoSuggestions"
                 android:textColor="@color/primary"
                 android:gravity="center_horizontal"
                 android:textSize="17.6dp"
                 android:id="@+id/mField"
-                android:layout_marginLeft="7.27mm"
-                android:layout_marginTop="20.45mm"
+                android:layout_marginLeft="9.55mm"
+                android:layout_marginTop="20.5mm"
+            />
+    
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/action"
+                android:gravity="left|center_vertical"
+                android:textSize="0.0dp"
+                android:src="@drawable/button_icon8765"
+                android:scaleType="fitStart"
+                android:background="?android:attr/selectableItemBackground"
+                android:paddingLeft="4.3px"
+                android:paddingRight="4.3px"
+                android:id="@+id/mIconButton3"
+                android:layout_marginLeft="47.32mm"
+                android:layout_marginTop="0.0mm"
             />
     
             <TextView
@@ -163,10 +178,10 @@
     
             <com.neonto.exportedByUser_s969932972038319.MSD.HOMEImageView
                 android:layout_width="723.0px"
-                android:layout_height="161.0px"
+                android:layout_height="332.0px"
                 android:id="@+id/mImage"
                 android:layout_marginLeft="0.0mm"
-                android:layout_marginTop="1.41mm"
+                android:layout_marginTop="0.71mm"
             />
     
             <TextView
@@ -230,16 +245,16 @@
                 android:textSize="0.0dp"
                 android:background="?android:attr/selectableItemBackground"
                 android:id="@+id/mHotspot"
-                android:layout_marginLeft="-0.77mm"
+                android:layout_marginLeft="-1.06mm"
                 android:layout_marginTop="0.0mm"
             />
     
             <com.neonto.exportedByUser_s969932972038319.MSD.HOMEImage2View
                 android:layout_width="719.0px"
-                android:layout_height="151.0px"
+                android:layout_height="332.0px"
                 android:id="@+id/mImage2"
                 android:layout_marginLeft="0.0mm"
-                android:layout_marginTop="0.62mm"
+                android:layout_marginTop="1.60mm"
             />
     
             <TextView
@@ -309,7 +324,7 @@
     
             <com.neonto.exportedByUser_s969932972038319.MSD.HOMEImage3View
                 android:layout_width="721.0px"
-                android:layout_height="149.0px"
+                android:layout_height="332.0px"
                 android:id="@+id/mImage3"
                 android:layout_marginLeft="0.0mm"
                 android:layout_marginTop="0.68mm"
@@ -380,6 +395,21 @@
                 android:layout_marginTop="0.0mm"
             />
     
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mfixedbutton_500197"
+                android:textColor="@color/action"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="15.6dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:paddingLeft="4.3px"
+                android:paddingRight="4.3px"
+                android:id="@+id/mFixedButton"
+                android:layout_marginLeft="22.02mm"
+                android:layout_marginTop="4.15mm"
+            />
+    
       </RelativeLayout>
     </ScrollView>
     
@@ -422,8 +452,8 @@
             android:layout_width="142.0px"
             android:layout_height="44.74px"
             android:id="@+id/mRectangle2"
-            android:layout_marginLeft="25.50mm"
-            android:layout_marginTop="13.71mm"
+            android:layout_marginLeft="25.77mm"
+            android:layout_marginTop="13.90mm"
         />
     
         <com.neonto.exportedByUser_s969932972038319.MSD.HOMERectangleView

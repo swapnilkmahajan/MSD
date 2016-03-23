@@ -505,10 +505,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mBackgroundShape, dm, layoutDescs_mBackgroundShape, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mImage = new ArrayList<LayoutDesc>();
-        layoutDescs_mImage.add(new LayoutDesc(10, 0.0f, 104.0f, LayoutDesc.NO_VALUE, 725.0f, 276.0f));  // 720*1280 px
-        layoutDescs_mImage.add(new LayoutDesc(2, 0.0f, 45.0f, LayoutDesc.NO_VALUE, 315.0f, 120.0f));  // 240*320 px
-        layoutDescs_mImage.add(new LayoutDesc(12, 0.0f, 132.0f, LayoutDesc.NO_VALUE, 914.0f, 348.0f));  // 1080*1920 px
-        layoutDescs_mImage.add(new LayoutDesc(8, 0.0f, 74.0f, LayoutDesc.NO_VALUE, 514.0f, 196.0f));  // 480*800 px
+        layoutDescs_mImage.add(new LayoutDesc(10, 0.0f, 152.0f, LayoutDesc.NO_VALUE, 725.0f, 332.0f));  // 720*1280 px
+        layoutDescs_mImage.add(new LayoutDesc(2, 0.0f, 66.0f, LayoutDesc.NO_VALUE, 315.0f, 145.0f));  // 240*320 px
+        layoutDescs_mImage.add(new LayoutDesc(12, 0.0f, 192.0f, LayoutDesc.NO_VALUE, 914.0f, 419.0f));  // 1080*1920 px
+        layoutDescs_mImage.add(new LayoutDesc(8, 0.0f, 108.0f, LayoutDesc.NO_VALUE, 514.0f, 236.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mImage = mOverrideElementLayoutDescriptors.get("image");
             if (override_mImage != null) {
@@ -518,21 +518,21 @@ public class OppDetail3Fragment extends Fragment {
                 }
             }
         }
-        layoutDescs_mImage.get(0).contentTransformMatricesString = "[0.979729730, 0.0, 0.0, 0.979729730, 0.0, -103.503378378]; [0.979729730, 0.0, 0.0, 0.979729730, 0.0, -103.503378378]";
-        layoutDescs_mImage.get(1).contentTransformMatricesString = "[0.425675676, 0.0, 0.0, 0.425675676, 0.0, -44.929054054]; [0.425675676, 0.0, 0.0, 0.425675676, 0.0, -44.929054054]";
-        layoutDescs_mImage.get(2).contentTransformMatricesString = "[1.235135135, 0.0, 0.0, 1.235135135, 0.0, -130.460810811]; [1.235135135, 0.0, 0.0, 1.235135135, 0.0, -130.460810811]";
-        layoutDescs_mImage.get(3).contentTransformMatricesString = "[0.694594595, 0.0, 0.0, 0.694594595, 0.0, -73.217567568]; [0.694594595, 0.0, 0.0, 0.694594595, 0.0, -73.217567568]";
-        layoutDescs_mImage.get(0).offsetInFlow = 104.39f;
-        layoutDescs_mImage.get(1).offsetInFlow = 45.37f;
-        layoutDescs_mImage.get(2).offsetInFlow = 131.66f;
-        layoutDescs_mImage.get(3).offsetInFlow = 74.03f;
+        layoutDescs_mImage.get(0).contentTransformMatricesString = "[0.979729730, 0.0, 0.0, 0.979729730, 0.0, -75.503378378]; [0.979729730, 0.0, 0.0, 0.979729730, 0.0, -75.503378378]";
+        layoutDescs_mImage.get(1).contentTransformMatricesString = "[0.425675676, 0.0, 0.0, 0.425675676, 0.0, -32.429054054]; [0.425675676, 0.0, 0.0, 0.425675676, 0.0, -32.429054054]";
+        layoutDescs_mImage.get(2).contentTransformMatricesString = "[1.235135135, 0.0, 0.0, 1.235135135, 0.0, -94.960810811]; [1.235135135, 0.0, 0.0, 1.235135135, 0.0, -94.960810811]";
+        layoutDescs_mImage.get(3).contentTransformMatricesString = "[0.694594595, 0.0, 0.0, 0.694594595, 0.0, -53.217567568]; [0.694594595, 0.0, 0.0, 0.694594595, 0.0, -53.217567568]";
+        layoutDescs_mImage.get(0).offsetInFlow = 152.01f;
+        layoutDescs_mImage.get(1).offsetInFlow = 66.07f;
+        layoutDescs_mImage.get(2).offsetInFlow = 191.73f;
+        layoutDescs_mImage.get(3).offsetInFlow = 107.80f;
         applyLayoutToView(mImage, dm, layoutDescs_mImage, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mText2 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText2.add(new LayoutDesc(10, 38.0f, 380.0f, LayoutDesc.NO_VALUE, 446.29f, 51.0f));  // 720*1280 px
-        layoutDescs_mText2.add(new LayoutDesc(2, 16.0f, 165.0f, LayoutDesc.NO_VALUE, 193.98f, 25.0f));  // 240*320 px
-        layoutDescs_mText2.add(new LayoutDesc(12, 48.0f, 480.0f, LayoutDesc.NO_VALUE, 562.90f, 63.0f));  // 1080*1920 px
-        layoutDescs_mText2.add(new LayoutDesc(8, 27.0f, 270.0f, LayoutDesc.NO_VALUE, 316.48f, 38.0f));  // 480*800 px
+        layoutDescs_mText2.add(new LayoutDesc(10, 38.0f, 484.0f, LayoutDesc.NO_VALUE, 446.29f, 51.0f));  // 720*1280 px
+        layoutDescs_mText2.add(new LayoutDesc(2, 16.0f, 211.0f, LayoutDesc.NO_VALUE, 193.98f, 25.0f));  // 240*320 px
+        layoutDescs_mText2.add(new LayoutDesc(12, 48.0f, 611.0f, LayoutDesc.NO_VALUE, 562.90f, 63.0f));  // 1080*1920 px
+        layoutDescs_mText2.add(new LayoutDesc(8, 27.0f, 344.0f, LayoutDesc.NO_VALUE, 316.48f, 38.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText2 = mOverrideElementLayoutDescriptors.get("text2");
             if (override_mText2 != null) {
@@ -549,10 +549,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText2, dm, layoutDescs_mText2, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText3 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText3.add(new LayoutDesc(10, 40.0f, 425.0f, LayoutDesc.NO_VALUE, 639.17f, 177.0f));  // 720*1280 px
-        layoutDescs_mText3.add(new LayoutDesc(2, 17.0f, 184.0f, LayoutDesc.NO_VALUE, 277.82f, 78.0f));  // 240*320 px
-        layoutDescs_mText3.add(new LayoutDesc(12, 50.0f, 537.0f, LayoutDesc.NO_VALUE, 806.18f, 219.0f));  // 1080*1920 px
-        layoutDescs_mText3.add(new LayoutDesc(8, 28.0f, 302.0f, LayoutDesc.NO_VALUE, 453.27f, 126.0f));  // 480*800 px
+        layoutDescs_mText3.add(new LayoutDesc(10, 40.0f, 529.0f, LayoutDesc.NO_VALUE, 639.17f, 177.0f));  // 720*1280 px
+        layoutDescs_mText3.add(new LayoutDesc(2, 17.0f, 230.0f, LayoutDesc.NO_VALUE, 277.82f, 78.0f));  // 240*320 px
+        layoutDescs_mText3.add(new LayoutDesc(12, 50.0f, 668.0f, LayoutDesc.NO_VALUE, 806.18f, 219.0f));  // 1080*1920 px
+        layoutDescs_mText3.add(new LayoutDesc(8, 28.0f, 376.0f, LayoutDesc.NO_VALUE, 453.27f, 126.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText3 = mOverrideElementLayoutDescriptors.get("text3");
             if (override_mText3 != null) {
@@ -569,10 +569,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText3, dm, layoutDescs_mText3, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText4 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText4.add(new LayoutDesc(10, 39.0f, 596.0f, LayoutDesc.NO_VALUE, 638.74f, 321.0f));  // 720*1280 px
-        layoutDescs_mText4.add(new LayoutDesc(2, 17.0f, 256.0f, LayoutDesc.NO_VALUE, 277.63f, 139.0f));  // 240*320 px
-        layoutDescs_mText4.add(new LayoutDesc(12, 49.0f, 750.0f, LayoutDesc.NO_VALUE, 805.63f, 405.0f));  // 1080*1920 px
-        layoutDescs_mText4.add(new LayoutDesc(8, 28.0f, 422.0f, LayoutDesc.NO_VALUE, 452.96f, 230.0f));  // 480*800 px
+        layoutDescs_mText4.add(new LayoutDesc(10, 39.0f, 700.0f, LayoutDesc.NO_VALUE, 638.74f, 321.0f));  // 720*1280 px
+        layoutDescs_mText4.add(new LayoutDesc(2, 17.0f, 302.0f, LayoutDesc.NO_VALUE, 277.63f, 139.0f));  // 240*320 px
+        layoutDescs_mText4.add(new LayoutDesc(12, 49.0f, 881.0f, LayoutDesc.NO_VALUE, 805.63f, 405.0f));  // 1080*1920 px
+        layoutDescs_mText4.add(new LayoutDesc(8, 28.0f, 496.0f, LayoutDesc.NO_VALUE, 452.96f, 230.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText4 = mOverrideElementLayoutDescriptors.get("text4");
             if (override_mText4 != null) {
@@ -589,10 +589,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText4, dm, layoutDescs_mText4, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText5 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText5.add(new LayoutDesc(10, 41.0f, 911.0f, LayoutDesc.NO_VALUE, 639.97f, 96.0f));  // 720*1280 px
-        layoutDescs_mText5.add(new LayoutDesc(2, 18.0f, 389.0f, LayoutDesc.NO_VALUE, 278.16f, 44.0f));  // 240*320 px
-        layoutDescs_mText5.add(new LayoutDesc(12, 51.0f, 1149.0f, LayoutDesc.NO_VALUE, 807.19f, 120.0f));  // 1080*1920 px
-        layoutDescs_mText5.add(new LayoutDesc(8, 29.0f, 646.0f, LayoutDesc.NO_VALUE, 453.84f, 70.0f));  // 480*800 px
+        layoutDescs_mText5.add(new LayoutDesc(10, 41.0f, 1015.0f, LayoutDesc.NO_VALUE, 639.97f, 96.0f));  // 720*1280 px
+        layoutDescs_mText5.add(new LayoutDesc(2, 18.0f, 435.0f, LayoutDesc.NO_VALUE, 278.16f, 44.0f));  // 240*320 px
+        layoutDescs_mText5.add(new LayoutDesc(12, 51.0f, 1280.0f, LayoutDesc.NO_VALUE, 807.19f, 120.0f));  // 1080*1920 px
+        layoutDescs_mText5.add(new LayoutDesc(8, 29.0f, 720.0f, LayoutDesc.NO_VALUE, 453.84f, 70.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText5 = mOverrideElementLayoutDescriptors.get("text5");
             if (override_mText5 != null) {
@@ -609,10 +609,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText5, dm, layoutDescs_mText5, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mMap = new ArrayList<LayoutDesc>();
-        layoutDescs_mMap.add(new LayoutDesc(10, 173.0f, 1000.0f, LayoutDesc.NO_VALUE, 369.78f, 348.53f));  // 720*1280 px
-        layoutDescs_mMap.add(new LayoutDesc(2, 75.0f, 427.0f, LayoutDesc.NO_VALUE, 160.72f, 151.49f));  // 240*320 px
-        layoutDescs_mMap.add(new LayoutDesc(12, 218.0f, 1262.0f, LayoutDesc.NO_VALUE, 466.40f, 439.59f));  // 1080*1920 px
-        layoutDescs_mMap.add(new LayoutDesc(8, 123.0f, 709.0f, LayoutDesc.NO_VALUE, 262.23f, 247.16f));  // 480*800 px
+        layoutDescs_mMap.add(new LayoutDesc(10, 173.0f, 1104.0f, LayoutDesc.NO_VALUE, 369.78f, 348.53f));  // 720*1280 px
+        layoutDescs_mMap.add(new LayoutDesc(2, 75.0f, 473.0f, LayoutDesc.NO_VALUE, 160.72f, 151.49f));  // 240*320 px
+        layoutDescs_mMap.add(new LayoutDesc(12, 218.0f, 1393.0f, LayoutDesc.NO_VALUE, 466.40f, 439.59f));  // 1080*1920 px
+        layoutDescs_mMap.add(new LayoutDesc(8, 123.0f, 783.0f, LayoutDesc.NO_VALUE, 262.23f, 247.16f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mMap = mOverrideElementLayoutDescriptors.get("map");
             if (override_mMap != null) {
@@ -629,10 +629,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mMap, dm, layoutDescs_mMap, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mText6 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText6.add(new LayoutDesc(10, 41.0f, 1360.53f, LayoutDesc.NO_VALUE, 640.43f, 186.0f));  // 720*1280 px
-        layoutDescs_mText6.add(new LayoutDesc(2, 18.0f, 583.49f, LayoutDesc.NO_VALUE, 278.36f, 82.0f));  // 240*320 px
-        layoutDescs_mText6.add(new LayoutDesc(12, 52.0f, 1716.59f, LayoutDesc.NO_VALUE, 807.77f, 234.0f));  // 1080*1920 px
-        layoutDescs_mText6.add(new LayoutDesc(8, 29.0f, 964.16f, LayoutDesc.NO_VALUE, 454.16f, 134.0f));  // 480*800 px
+        layoutDescs_mText6.add(new LayoutDesc(10, 41.0f, 1464.53f, LayoutDesc.NO_VALUE, 640.43f, 186.0f));  // 720*1280 px
+        layoutDescs_mText6.add(new LayoutDesc(2, 18.0f, 629.49f, LayoutDesc.NO_VALUE, 278.36f, 82.0f));  // 240*320 px
+        layoutDescs_mText6.add(new LayoutDesc(12, 52.0f, 1847.59f, LayoutDesc.NO_VALUE, 807.77f, 234.0f));  // 1080*1920 px
+        layoutDescs_mText6.add(new LayoutDesc(8, 29.0f, 1038.16f, LayoutDesc.NO_VALUE, 454.16f, 134.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText6 = mOverrideElementLayoutDescriptors.get("text6");
             if (override_mText6 != null) {
@@ -649,10 +649,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText6, dm, layoutDescs_mText6, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText7 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText7.add(new LayoutDesc(10, 39.0f, 1558.53f, LayoutDesc.NO_VALUE, 446.29f, 51.0f));  // 720*1280 px
-        layoutDescs_mText7.add(new LayoutDesc(2, 17.0f, 667.49f, LayoutDesc.NO_VALUE, 193.98f, 25.0f));  // 240*320 px
-        layoutDescs_mText7.add(new LayoutDesc(12, 50.0f, 1967.59f, LayoutDesc.NO_VALUE, 562.90f, 63.0f));  // 1080*1920 px
-        layoutDescs_mText7.add(new LayoutDesc(8, 28.0f, 1105.16f, LayoutDesc.NO_VALUE, 316.48f, 38.0f));  // 480*800 px
+        layoutDescs_mText7.add(new LayoutDesc(10, 39.0f, 1662.53f, LayoutDesc.NO_VALUE, 446.29f, 51.0f));  // 720*1280 px
+        layoutDescs_mText7.add(new LayoutDesc(2, 17.0f, 713.49f, LayoutDesc.NO_VALUE, 193.98f, 25.0f));  // 240*320 px
+        layoutDescs_mText7.add(new LayoutDesc(12, 50.0f, 2098.59f, LayoutDesc.NO_VALUE, 562.90f, 63.0f));  // 1080*1920 px
+        layoutDescs_mText7.add(new LayoutDesc(8, 28.0f, 1179.16f, LayoutDesc.NO_VALUE, 316.48f, 38.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText7 = mOverrideElementLayoutDescriptors.get("text7");
             if (override_mText7 != null) {
@@ -669,10 +669,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText7, dm, layoutDescs_mText7, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mIconButton3 = new ArrayList<LayoutDesc>();
-        layoutDescs_mIconButton3.add(new LayoutDesc(10, 9.0f, 1622.53f, LayoutDesc.NO_VALUE, 59.50f, 51.0f));  // 720*1280 px
-        layoutDescs_mIconButton3.add(new LayoutDesc(2, 4.0f, 694.49f, LayoutDesc.NO_VALUE, 25.86f, 22.17f));  // 240*320 px
-        layoutDescs_mIconButton3.add(new LayoutDesc(12, 11.0f, 2048.59f, LayoutDesc.NO_VALUE, 75.05f, 64.33f));  // 1080*1920 px
-        layoutDescs_mIconButton3.add(new LayoutDesc(8, 6.0f, 1150.16f, LayoutDesc.NO_VALUE, 42.20f, 36.17f));  // 480*800 px
+        layoutDescs_mIconButton3.add(new LayoutDesc(10, 9.0f, 1726.53f, LayoutDesc.NO_VALUE, 59.50f, 51.0f));  // 720*1280 px
+        layoutDescs_mIconButton3.add(new LayoutDesc(2, 4.0f, 740.49f, LayoutDesc.NO_VALUE, 25.86f, 22.17f));  // 240*320 px
+        layoutDescs_mIconButton3.add(new LayoutDesc(12, 11.0f, 2179.59f, LayoutDesc.NO_VALUE, 75.05f, 64.33f));  // 1080*1920 px
+        layoutDescs_mIconButton3.add(new LayoutDesc(8, 6.0f, 1224.16f, LayoutDesc.NO_VALUE, 42.20f, 36.17f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mIconButton3 = mOverrideElementLayoutDescriptors.get("iconButton3");
             if (override_mIconButton3 != null) {
@@ -689,10 +689,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mIconButton3, dm, layoutDescs_mIconButton3, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mText8 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText8.add(new LayoutDesc(10, 0.0f, 1673.53f, LayoutDesc.NO_VALUE, 446.29f, 34.0f));  // 720*1280 px
-        layoutDescs_mText8.add(new LayoutDesc(2, 0.0f, 716.66f, LayoutDesc.NO_VALUE, 193.98f, 19.0f));  // 240*320 px
-        layoutDescs_mText8.add(new LayoutDesc(12, 0.0f, 2112.93f, LayoutDesc.NO_VALUE, 562.90f, 41.0f));  // 1080*1920 px
-        layoutDescs_mText8.add(new LayoutDesc(8, 0.0f, 1186.33f, LayoutDesc.NO_VALUE, 316.48f, 26.0f));  // 480*800 px
+        layoutDescs_mText8.add(new LayoutDesc(10, 0.0f, 1777.53f, LayoutDesc.NO_VALUE, 446.29f, 34.0f));  // 720*1280 px
+        layoutDescs_mText8.add(new LayoutDesc(2, 0.0f, 762.66f, LayoutDesc.NO_VALUE, 193.98f, 19.0f));  // 240*320 px
+        layoutDescs_mText8.add(new LayoutDesc(12, 0.0f, 2243.93f, LayoutDesc.NO_VALUE, 562.90f, 41.0f));  // 1080*1920 px
+        layoutDescs_mText8.add(new LayoutDesc(8, 0.0f, 1260.33f, LayoutDesc.NO_VALUE, 316.48f, 26.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText8 = mOverrideElementLayoutDescriptors.get("text8");
             if (override_mText8 != null) {
@@ -709,10 +709,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText8, dm, layoutDescs_mText8, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mIconButton4 = new ArrayList<LayoutDesc>();
-        layoutDescs_mIconButton4.add(new LayoutDesc(10, 157.0f, 1627.53f, LayoutDesc.NO_VALUE, 59.50f, 51.0f));  // 720*1280 px
-        layoutDescs_mIconButton4.add(new LayoutDesc(2, 68.0f, 697.66f, LayoutDesc.NO_VALUE, 25.86f, 22.17f));  // 240*320 px
-        layoutDescs_mIconButton4.add(new LayoutDesc(12, 198.0f, 2054.93f, LayoutDesc.NO_VALUE, 75.05f, 64.33f));  // 1080*1920 px
-        layoutDescs_mIconButton4.add(new LayoutDesc(8, 111.0f, 1154.33f, LayoutDesc.NO_VALUE, 42.20f, 36.17f));  // 480*800 px
+        layoutDescs_mIconButton4.add(new LayoutDesc(10, 157.0f, 1731.53f, LayoutDesc.NO_VALUE, 59.50f, 51.0f));  // 720*1280 px
+        layoutDescs_mIconButton4.add(new LayoutDesc(2, 68.0f, 743.66f, LayoutDesc.NO_VALUE, 25.86f, 22.17f));  // 240*320 px
+        layoutDescs_mIconButton4.add(new LayoutDesc(12, 198.0f, 2185.93f, LayoutDesc.NO_VALUE, 75.05f, 64.33f));  // 1080*1920 px
+        layoutDescs_mIconButton4.add(new LayoutDesc(8, 111.0f, 1228.33f, LayoutDesc.NO_VALUE, 42.20f, 36.17f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mIconButton4 = mOverrideElementLayoutDescriptors.get("iconButton4");
             if (override_mIconButton4 != null) {
@@ -729,10 +729,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mIconButton4, dm, layoutDescs_mIconButton4, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mText = new ArrayList<LayoutDesc>();
-        layoutDescs_mText.add(new LayoutDesc(10, 156.0f, 1678.54f, LayoutDesc.NO_VALUE, 446.29f, 34.0f));  // 720*1280 px
-        layoutDescs_mText.add(new LayoutDesc(2, 68.0f, 719.83f, LayoutDesc.NO_VALUE, 193.98f, 19.0f));  // 240*320 px
-        layoutDescs_mText.add(new LayoutDesc(12, 197.0f, 2119.26f, LayoutDesc.NO_VALUE, 562.90f, 41.0f));  // 1080*1920 px
-        layoutDescs_mText.add(new LayoutDesc(8, 111.0f, 1190.50f, LayoutDesc.NO_VALUE, 316.48f, 26.0f));  // 480*800 px
+        layoutDescs_mText.add(new LayoutDesc(10, 156.0f, 1782.54f, LayoutDesc.NO_VALUE, 446.29f, 34.0f));  // 720*1280 px
+        layoutDescs_mText.add(new LayoutDesc(2, 68.0f, 765.83f, LayoutDesc.NO_VALUE, 193.98f, 19.0f));  // 240*320 px
+        layoutDescs_mText.add(new LayoutDesc(12, 197.0f, 2250.26f, LayoutDesc.NO_VALUE, 562.90f, 41.0f));  // 1080*1920 px
+        layoutDescs_mText.add(new LayoutDesc(8, 111.0f, 1264.50f, LayoutDesc.NO_VALUE, 316.48f, 26.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText = mOverrideElementLayoutDescriptors.get("text");
             if (override_mText != null) {
@@ -749,10 +749,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText, dm, layoutDescs_mText, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mIconButton5 = new ArrayList<LayoutDesc>();
-        layoutDescs_mIconButton5.add(new LayoutDesc(10, 276.0f, 1625.54f, LayoutDesc.NO_VALUE, 59.50f, 51.0f));  // 720*1280 px
-        layoutDescs_mIconButton5.add(new LayoutDesc(2, 120.0f, 697.83f, LayoutDesc.NO_VALUE, 25.86f, 22.17f));  // 240*320 px
-        layoutDescs_mIconButton5.add(new LayoutDesc(12, 348.0f, 2052.26f, LayoutDesc.NO_VALUE, 75.05f, 64.33f));  // 1080*1920 px
-        layoutDescs_mIconButton5.add(new LayoutDesc(8, 196.0f, 1153.50f, LayoutDesc.NO_VALUE, 42.20f, 36.17f));  // 480*800 px
+        layoutDescs_mIconButton5.add(new LayoutDesc(10, 276.0f, 1729.54f, LayoutDesc.NO_VALUE, 59.50f, 51.0f));  // 720*1280 px
+        layoutDescs_mIconButton5.add(new LayoutDesc(2, 120.0f, 743.83f, LayoutDesc.NO_VALUE, 25.86f, 22.17f));  // 240*320 px
+        layoutDescs_mIconButton5.add(new LayoutDesc(12, 348.0f, 2183.26f, LayoutDesc.NO_VALUE, 75.05f, 64.33f));  // 1080*1920 px
+        layoutDescs_mIconButton5.add(new LayoutDesc(8, 196.0f, 1227.50f, LayoutDesc.NO_VALUE, 42.20f, 36.17f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mIconButton5 = mOverrideElementLayoutDescriptors.get("iconButton5");
             if (override_mIconButton5 != null) {
@@ -769,10 +769,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mIconButton5, dm, layoutDescs_mIconButton5, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mText10 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText10.add(new LayoutDesc(10, 270.0f, 1676.54f, LayoutDesc.NO_VALUE, 446.29f, 34.0f));  // 720*1280 px
-        layoutDescs_mText10.add(new LayoutDesc(2, 117.0f, 719.99f, LayoutDesc.NO_VALUE, 193.98f, 19.0f));  // 240*320 px
-        layoutDescs_mText10.add(new LayoutDesc(12, 341.0f, 2116.59f, LayoutDesc.NO_VALUE, 562.90f, 41.0f));  // 1080*1920 px
-        layoutDescs_mText10.add(new LayoutDesc(8, 192.0f, 1189.67f, LayoutDesc.NO_VALUE, 316.48f, 26.0f));  // 480*800 px
+        layoutDescs_mText10.add(new LayoutDesc(10, 270.0f, 1780.54f, LayoutDesc.NO_VALUE, 446.29f, 34.0f));  // 720*1280 px
+        layoutDescs_mText10.add(new LayoutDesc(2, 117.0f, 765.99f, LayoutDesc.NO_VALUE, 193.98f, 19.0f));  // 240*320 px
+        layoutDescs_mText10.add(new LayoutDesc(12, 341.0f, 2247.59f, LayoutDesc.NO_VALUE, 562.90f, 41.0f));  // 1080*1920 px
+        layoutDescs_mText10.add(new LayoutDesc(8, 192.0f, 1263.67f, LayoutDesc.NO_VALUE, 316.48f, 26.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText10 = mOverrideElementLayoutDescriptors.get("text10");
             if (override_mText10 != null) {
@@ -789,10 +789,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText10, dm, layoutDescs_mText10, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mIconButton6 = new ArrayList<LayoutDesc>();
-        layoutDescs_mIconButton6.add(new LayoutDesc(10, 399.0f, 1627.54f, LayoutDesc.NO_VALUE, 59.50f, 51.0f));  // 720*1280 px
-        layoutDescs_mIconButton6.add(new LayoutDesc(2, 174.0f, 699.99f, LayoutDesc.NO_VALUE, 25.86f, 22.17f));  // 240*320 px
-        layoutDescs_mIconButton6.add(new LayoutDesc(12, 504.0f, 2055.59f, LayoutDesc.NO_VALUE, 75.05f, 64.33f));  // 1080*1920 px
-        layoutDescs_mIconButton6.add(new LayoutDesc(8, 283.0f, 1155.67f, LayoutDesc.NO_VALUE, 42.20f, 36.17f));  // 480*800 px
+        layoutDescs_mIconButton6.add(new LayoutDesc(10, 399.0f, 1731.54f, LayoutDesc.NO_VALUE, 59.50f, 51.0f));  // 720*1280 px
+        layoutDescs_mIconButton6.add(new LayoutDesc(2, 174.0f, 745.99f, LayoutDesc.NO_VALUE, 25.86f, 22.17f));  // 240*320 px
+        layoutDescs_mIconButton6.add(new LayoutDesc(12, 504.0f, 2186.59f, LayoutDesc.NO_VALUE, 75.05f, 64.33f));  // 1080*1920 px
+        layoutDescs_mIconButton6.add(new LayoutDesc(8, 283.0f, 1229.67f, LayoutDesc.NO_VALUE, 42.20f, 36.17f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mIconButton6 = mOverrideElementLayoutDescriptors.get("iconButton6");
             if (override_mIconButton6 != null) {
@@ -809,10 +809,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mIconButton6, dm, layoutDescs_mIconButton6, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mText11 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText11.add(new LayoutDesc(10, 396.0f, 1678.54f, LayoutDesc.NO_VALUE, 446.29f, 34.0f));  // 720*1280 px
-        layoutDescs_mText11.add(new LayoutDesc(2, 172.0f, 722.16f, LayoutDesc.NO_VALUE, 193.98f, 19.0f));  // 240*320 px
-        layoutDescs_mText11.add(new LayoutDesc(12, 500.0f, 2119.92f, LayoutDesc.NO_VALUE, 562.90f, 41.0f));  // 1080*1920 px
-        layoutDescs_mText11.add(new LayoutDesc(8, 281.0f, 1191.84f, LayoutDesc.NO_VALUE, 316.48f, 26.0f));  // 480*800 px
+        layoutDescs_mText11.add(new LayoutDesc(10, 396.0f, 1782.54f, LayoutDesc.NO_VALUE, 446.29f, 34.0f));  // 720*1280 px
+        layoutDescs_mText11.add(new LayoutDesc(2, 172.0f, 768.16f, LayoutDesc.NO_VALUE, 193.98f, 19.0f));  // 240*320 px
+        layoutDescs_mText11.add(new LayoutDesc(12, 500.0f, 2250.92f, LayoutDesc.NO_VALUE, 562.90f, 41.0f));  // 1080*1920 px
+        layoutDescs_mText11.add(new LayoutDesc(8, 281.0f, 1265.84f, LayoutDesc.NO_VALUE, 316.48f, 26.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText11 = mOverrideElementLayoutDescriptors.get("text11");
             if (override_mText11 != null) {
@@ -829,10 +829,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText11, dm, layoutDescs_mText11, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mIconButton7 = new ArrayList<LayoutDesc>();
-        layoutDescs_mIconButton7.add(new LayoutDesc(10, 529.0f, 1625.54f, LayoutDesc.NO_VALUE, 59.50f, 51.0f));  // 720*1280 px
-        layoutDescs_mIconButton7.add(new LayoutDesc(2, 230.0f, 700.16f, LayoutDesc.NO_VALUE, 25.86f, 22.17f));  // 240*320 px
-        layoutDescs_mIconButton7.add(new LayoutDesc(12, 667.0f, 2052.92f, LayoutDesc.NO_VALUE, 75.05f, 64.33f));  // 1080*1920 px
-        layoutDescs_mIconButton7.add(new LayoutDesc(8, 375.0f, 1154.84f, LayoutDesc.NO_VALUE, 42.20f, 36.17f));  // 480*800 px
+        layoutDescs_mIconButton7.add(new LayoutDesc(10, 529.0f, 1729.54f, LayoutDesc.NO_VALUE, 59.50f, 51.0f));  // 720*1280 px
+        layoutDescs_mIconButton7.add(new LayoutDesc(2, 230.0f, 746.16f, LayoutDesc.NO_VALUE, 25.86f, 22.17f));  // 240*320 px
+        layoutDescs_mIconButton7.add(new LayoutDesc(12, 667.0f, 2183.92f, LayoutDesc.NO_VALUE, 75.05f, 64.33f));  // 1080*1920 px
+        layoutDescs_mIconButton7.add(new LayoutDesc(8, 375.0f, 1228.84f, LayoutDesc.NO_VALUE, 42.20f, 36.17f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mIconButton7 = mOverrideElementLayoutDescriptors.get("iconButton7");
             if (override_mIconButton7 != null) {
@@ -849,10 +849,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mIconButton7, dm, layoutDescs_mIconButton7, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mText12 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText12.add(new LayoutDesc(10, 518.0f, 1676.55f, LayoutDesc.NO_VALUE, 446.29f, 34.0f));  // 720*1280 px
-        layoutDescs_mText12.add(new LayoutDesc(2, 225.0f, 722.33f, LayoutDesc.NO_VALUE, 193.98f, 19.0f));  // 240*320 px
-        layoutDescs_mText12.add(new LayoutDesc(12, 654.0f, 2117.25f, LayoutDesc.NO_VALUE, 562.90f, 41.0f));  // 1080*1920 px
-        layoutDescs_mText12.add(new LayoutDesc(8, 367.0f, 1191.01f, LayoutDesc.NO_VALUE, 316.48f, 26.0f));  // 480*800 px
+        layoutDescs_mText12.add(new LayoutDesc(10, 518.0f, 1780.55f, LayoutDesc.NO_VALUE, 446.29f, 34.0f));  // 720*1280 px
+        layoutDescs_mText12.add(new LayoutDesc(2, 225.0f, 768.33f, LayoutDesc.NO_VALUE, 193.98f, 19.0f));  // 240*320 px
+        layoutDescs_mText12.add(new LayoutDesc(12, 654.0f, 2248.25f, LayoutDesc.NO_VALUE, 562.90f, 41.0f));  // 1080*1920 px
+        layoutDescs_mText12.add(new LayoutDesc(8, 367.0f, 1265.01f, LayoutDesc.NO_VALUE, 316.48f, 26.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText12 = mOverrideElementLayoutDescriptors.get("text12");
             if (override_mText12 != null) {
@@ -869,10 +869,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText12, dm, layoutDescs_mText12, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText13 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText13.add(new LayoutDesc(10, 37.0f, 1721.55f, LayoutDesc.NO_VALUE, 446.29f, 51.0f));  // 720*1280 px
-        layoutDescs_mText13.add(new LayoutDesc(2, 16.0f, 742.33f, LayoutDesc.NO_VALUE, 193.98f, 25.0f));  // 240*320 px
-        layoutDescs_mText13.add(new LayoutDesc(12, 46.0f, 2173.25f, LayoutDesc.NO_VALUE, 562.90f, 63.0f));  // 1080*1920 px
-        layoutDescs_mText13.add(new LayoutDesc(8, 26.0f, 1223.01f, LayoutDesc.NO_VALUE, 316.48f, 38.0f));  // 480*800 px
+        layoutDescs_mText13.add(new LayoutDesc(10, 37.0f, 1825.55f, LayoutDesc.NO_VALUE, 446.29f, 51.0f));  // 720*1280 px
+        layoutDescs_mText13.add(new LayoutDesc(2, 16.0f, 788.33f, LayoutDesc.NO_VALUE, 193.98f, 25.0f));  // 240*320 px
+        layoutDescs_mText13.add(new LayoutDesc(12, 46.0f, 2304.25f, LayoutDesc.NO_VALUE, 562.90f, 63.0f));  // 1080*1920 px
+        layoutDescs_mText13.add(new LayoutDesc(8, 26.0f, 1297.01f, LayoutDesc.NO_VALUE, 316.48f, 38.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText13 = mOverrideElementLayoutDescriptors.get("text13");
             if (override_mText13 != null) {
@@ -889,10 +889,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText13, dm, layoutDescs_mText13, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mImage3 = new ArrayList<LayoutDesc>();
-        layoutDescs_mImage3.add(new LayoutDesc(10, 41.0f, 1788.55f, LayoutDesc.NO_VALUE, 256.0f, 145.0f));  // 720*1280 px
-        layoutDescs_mImage3.add(new LayoutDesc(2, 18.0f, 771.33f, LayoutDesc.NO_VALUE, 111.0f, 63.0f));  // 240*320 px
-        layoutDescs_mImage3.add(new LayoutDesc(12, 52.0f, 2258.25f, LayoutDesc.NO_VALUE, 322.0f, 182.0f));  // 1080*1920 px
-        layoutDescs_mImage3.add(new LayoutDesc(8, 29.0f, 1271.01f, LayoutDesc.NO_VALUE, 181.0f, 103.0f));  // 480*800 px
+        layoutDescs_mImage3.add(new LayoutDesc(10, 41.0f, 1892.55f, LayoutDesc.NO_VALUE, 256.0f, 145.0f));  // 720*1280 px
+        layoutDescs_mImage3.add(new LayoutDesc(2, 18.0f, 817.33f, LayoutDesc.NO_VALUE, 111.0f, 63.0f));  // 240*320 px
+        layoutDescs_mImage3.add(new LayoutDesc(12, 52.0f, 2389.25f, LayoutDesc.NO_VALUE, 322.0f, 182.0f));  // 1080*1920 px
+        layoutDescs_mImage3.add(new LayoutDesc(8, 29.0f, 1345.01f, LayoutDesc.NO_VALUE, 181.0f, 103.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mImage3 = mOverrideElementLayoutDescriptors.get("image3");
             if (override_mImage3 != null) {
@@ -913,10 +913,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mImage3, dm, layoutDescs_mImage3, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mText15 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText15.add(new LayoutDesc(10, 42.0f, 1933.55f, LayoutDesc.NO_VALUE, 446.29f, 40.0f));  // 720*1280 px
-        layoutDescs_mText15.add(new LayoutDesc(2, 18.0f, 834.33f, LayoutDesc.NO_VALUE, 193.98f, 21.0f));  // 240*320 px
-        layoutDescs_mText15.add(new LayoutDesc(12, 53.0f, 2440.25f, LayoutDesc.NO_VALUE, 562.90f, 49.0f));  // 1080*1920 px
-        layoutDescs_mText15.add(new LayoutDesc(8, 30.0f, 1374.01f, LayoutDesc.NO_VALUE, 316.48f, 30.0f));  // 480*800 px
+        layoutDescs_mText15.add(new LayoutDesc(10, 42.0f, 2037.55f, LayoutDesc.NO_VALUE, 446.29f, 40.0f));  // 720*1280 px
+        layoutDescs_mText15.add(new LayoutDesc(2, 18.0f, 880.33f, LayoutDesc.NO_VALUE, 193.98f, 21.0f));  // 240*320 px
+        layoutDescs_mText15.add(new LayoutDesc(12, 53.0f, 2571.25f, LayoutDesc.NO_VALUE, 562.90f, 49.0f));  // 1080*1920 px
+        layoutDescs_mText15.add(new LayoutDesc(8, 30.0f, 1448.01f, LayoutDesc.NO_VALUE, 316.48f, 30.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText15 = mOverrideElementLayoutDescriptors.get("text15");
             if (override_mText15 != null) {
@@ -933,10 +933,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText15, dm, layoutDescs_mText15, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText14 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText14.add(new LayoutDesc(10, 44.0f, 1967.55f, LayoutDesc.NO_VALUE, 252.86f, 84.0f));  // 720*1280 px
-        layoutDescs_mText14.add(new LayoutDesc(2, 19.0f, 849.33f, LayoutDesc.NO_VALUE, 109.91f, 60.0f));  // 240*320 px
-        layoutDescs_mText14.add(new LayoutDesc(12, 55.0f, 2483.25f, LayoutDesc.NO_VALUE, 318.93f, 104.0f));  // 1080*1920 px
-        layoutDescs_mText14.add(new LayoutDesc(8, 31.0f, 1398.01f, LayoutDesc.NO_VALUE, 179.32f, 90.0f));  // 480*800 px
+        layoutDescs_mText14.add(new LayoutDesc(10, 44.0f, 2071.55f, LayoutDesc.NO_VALUE, 252.86f, 84.0f));  // 720*1280 px
+        layoutDescs_mText14.add(new LayoutDesc(2, 19.0f, 895.33f, LayoutDesc.NO_VALUE, 109.91f, 60.0f));  // 240*320 px
+        layoutDescs_mText14.add(new LayoutDesc(12, 55.0f, 2614.25f, LayoutDesc.NO_VALUE, 318.93f, 104.0f));  // 1080*1920 px
+        layoutDescs_mText14.add(new LayoutDesc(8, 31.0f, 1472.01f, LayoutDesc.NO_VALUE, 179.32f, 90.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText14 = mOverrideElementLayoutDescriptors.get("text14");
             if (override_mText14 != null) {
@@ -953,10 +953,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText14, dm, layoutDescs_mText14, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText16 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText16.add(new LayoutDesc(10, 40.0f, 2045.55f, LayoutDesc.NO_VALUE, 446.29f, 40.0f));  // 720*1280 px
-        layoutDescs_mText16.add(new LayoutDesc(2, 17.0f, 903.33f, LayoutDesc.NO_VALUE, 193.98f, 21.0f));  // 240*320 px
-        layoutDescs_mText16.add(new LayoutDesc(12, 50.0f, 2581.25f, LayoutDesc.NO_VALUE, 562.90f, 49.0f));  // 1080*1920 px
-        layoutDescs_mText16.add(new LayoutDesc(8, 28.0f, 1482.01f, LayoutDesc.NO_VALUE, 316.48f, 30.0f));  // 480*800 px
+        layoutDescs_mText16.add(new LayoutDesc(10, 40.0f, 2149.55f, LayoutDesc.NO_VALUE, 446.29f, 40.0f));  // 720*1280 px
+        layoutDescs_mText16.add(new LayoutDesc(2, 17.0f, 949.33f, LayoutDesc.NO_VALUE, 193.98f, 21.0f));  // 240*320 px
+        layoutDescs_mText16.add(new LayoutDesc(12, 50.0f, 2712.25f, LayoutDesc.NO_VALUE, 562.90f, 49.0f));  // 1080*1920 px
+        layoutDescs_mText16.add(new LayoutDesc(8, 28.0f, 1556.01f, LayoutDesc.NO_VALUE, 316.48f, 30.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText16 = mOverrideElementLayoutDescriptors.get("text16");
             if (override_mText16 != null) {
@@ -973,10 +973,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText16, dm, layoutDescs_mText16, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText17 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText17.add(new LayoutDesc(10, 39.0f, 2077.55f, LayoutDesc.NO_VALUE, 258.78f, 40.0f));  // 720*1280 px
-        layoutDescs_mText17.add(new LayoutDesc(2, 17.0f, 917.33f, LayoutDesc.NO_VALUE, 112.48f, 21.0f));  // 240*320 px
-        layoutDescs_mText17.add(new LayoutDesc(12, 50.0f, 2621.25f, LayoutDesc.NO_VALUE, 326.39f, 49.0f));  // 1080*1920 px
-        layoutDescs_mText17.add(new LayoutDesc(8, 28.0f, 1504.01f, LayoutDesc.NO_VALUE, 183.51f, 30.0f));  // 480*800 px
+        layoutDescs_mText17.add(new LayoutDesc(10, 39.0f, 2181.55f, LayoutDesc.NO_VALUE, 258.78f, 40.0f));  // 720*1280 px
+        layoutDescs_mText17.add(new LayoutDesc(2, 17.0f, 963.33f, LayoutDesc.NO_VALUE, 112.48f, 21.0f));  // 240*320 px
+        layoutDescs_mText17.add(new LayoutDesc(12, 50.0f, 2752.25f, LayoutDesc.NO_VALUE, 326.39f, 49.0f));  // 1080*1920 px
+        layoutDescs_mText17.add(new LayoutDesc(8, 28.0f, 1578.01f, LayoutDesc.NO_VALUE, 183.51f, 30.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText17 = mOverrideElementLayoutDescriptors.get("text17");
             if (override_mText17 != null) {
@@ -993,10 +993,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText17, dm, layoutDescs_mText17, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mHotspot = new ArrayList<LayoutDesc>();
-        layoutDescs_mHotspot.add(new LayoutDesc(10, 31.0f, 1791.55f, LayoutDesc.NO_VALUE, 278.03f, 358.76f));  // 720*1280 px
-        layoutDescs_mHotspot.add(new LayoutDesc(2, 13.0f, 793.33f, LayoutDesc.NO_VALUE, 120.85f, 155.93f));  // 240*320 px
-        layoutDescs_mHotspot.add(new LayoutDesc(12, 39.0f, 2261.25f, LayoutDesc.NO_VALUE, 350.68f, 452.49f));  // 1080*1920 px
-        layoutDescs_mHotspot.add(new LayoutDesc(8, 22.0f, 1301.01f, LayoutDesc.NO_VALUE, 197.16f, 254.41f));  // 480*800 px
+        layoutDescs_mHotspot.add(new LayoutDesc(10, 31.0f, 1895.55f, LayoutDesc.NO_VALUE, 278.03f, 358.76f));  // 720*1280 px
+        layoutDescs_mHotspot.add(new LayoutDesc(2, 13.0f, 839.33f, LayoutDesc.NO_VALUE, 120.85f, 155.93f));  // 240*320 px
+        layoutDescs_mHotspot.add(new LayoutDesc(12, 39.0f, 2392.25f, LayoutDesc.NO_VALUE, 350.68f, 452.49f));  // 1080*1920 px
+        layoutDescs_mHotspot.add(new LayoutDesc(8, 22.0f, 1375.01f, LayoutDesc.NO_VALUE, 197.16f, 254.41f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mHotspot = mOverrideElementLayoutDescriptors.get("hotspot");
             if (override_mHotspot != null) {
@@ -1013,10 +1013,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mHotspot, dm, layoutDescs_mHotspot, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mImage4 = new ArrayList<LayoutDesc>();
-        layoutDescs_mImage4.add(new LayoutDesc(10, 381.0f, 1799.30f, LayoutDesc.NO_VALUE, 256.0f, 145.0f));  // 720*1280 px
-        layoutDescs_mImage4.add(new LayoutDesc(2, 166.0f, 797.26f, LayoutDesc.NO_VALUE, 111.0f, 63.0f));  // 240*320 px
-        layoutDescs_mImage4.add(new LayoutDesc(12, 481.0f, 2271.74f, LayoutDesc.NO_VALUE, 322.0f, 182.0f));  // 1080*1920 px
-        layoutDescs_mImage4.add(new LayoutDesc(8, 271.0f, 1306.42f, LayoutDesc.NO_VALUE, 181.0f, 103.0f));  // 480*800 px
+        layoutDescs_mImage4.add(new LayoutDesc(10, 381.0f, 1903.30f, LayoutDesc.NO_VALUE, 256.0f, 145.0f));  // 720*1280 px
+        layoutDescs_mImage4.add(new LayoutDesc(2, 166.0f, 843.26f, LayoutDesc.NO_VALUE, 111.0f, 63.0f));  // 240*320 px
+        layoutDescs_mImage4.add(new LayoutDesc(12, 481.0f, 2402.74f, LayoutDesc.NO_VALUE, 322.0f, 182.0f));  // 1080*1920 px
+        layoutDescs_mImage4.add(new LayoutDesc(8, 271.0f, 1380.42f, LayoutDesc.NO_VALUE, 181.0f, 103.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mImage4 = mOverrideElementLayoutDescriptors.get("image4");
             if (override_mImage4 != null) {
@@ -1037,10 +1037,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mImage4, dm, layoutDescs_mImage4, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mText18 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText18.add(new LayoutDesc(10, 379.0f, 1943.30f, LayoutDesc.NO_VALUE, 257.39f, 40.0f));  // 720*1280 px
-        layoutDescs_mText18.add(new LayoutDesc(2, 165.0f, 860.26f, LayoutDesc.NO_VALUE, 111.87f, 21.0f));  // 240*320 px
-        layoutDescs_mText18.add(new LayoutDesc(12, 478.0f, 2452.74f, LayoutDesc.NO_VALUE, 324.64f, 49.0f));  // 1080*1920 px
-        layoutDescs_mText18.add(new LayoutDesc(8, 269.0f, 1408.42f, LayoutDesc.NO_VALUE, 182.53f, 30.0f));  // 480*800 px
+        layoutDescs_mText18.add(new LayoutDesc(10, 379.0f, 2047.30f, LayoutDesc.NO_VALUE, 257.39f, 40.0f));  // 720*1280 px
+        layoutDescs_mText18.add(new LayoutDesc(2, 165.0f, 906.26f, LayoutDesc.NO_VALUE, 111.87f, 21.0f));  // 240*320 px
+        layoutDescs_mText18.add(new LayoutDesc(12, 478.0f, 2583.74f, LayoutDesc.NO_VALUE, 324.64f, 49.0f));  // 1080*1920 px
+        layoutDescs_mText18.add(new LayoutDesc(8, 269.0f, 1482.42f, LayoutDesc.NO_VALUE, 182.53f, 30.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText18 = mOverrideElementLayoutDescriptors.get("text18");
             if (override_mText18 != null) {
@@ -1057,10 +1057,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText18, dm, layoutDescs_mText18, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText1 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText1.add(new LayoutDesc(10, 379.0f, 1978.30f, LayoutDesc.NO_VALUE, 254.80f, 84.0f));  // 720*1280 px
-        layoutDescs_mText1.add(new LayoutDesc(2, 165.0f, 875.26f, LayoutDesc.NO_VALUE, 110.75f, 42.0f));  // 240*320 px
-        layoutDescs_mText1.add(new LayoutDesc(12, 479.0f, 2496.74f, LayoutDesc.NO_VALUE, 321.37f, 104.0f));  // 1080*1920 px
-        layoutDescs_mText1.add(new LayoutDesc(8, 269.0f, 1433.42f, LayoutDesc.NO_VALUE, 180.69f, 62.0f));  // 480*800 px
+        layoutDescs_mText1.add(new LayoutDesc(10, 379.0f, 2082.30f, LayoutDesc.NO_VALUE, 254.80f, 84.0f));  // 720*1280 px
+        layoutDescs_mText1.add(new LayoutDesc(2, 165.0f, 921.26f, LayoutDesc.NO_VALUE, 110.75f, 42.0f));  // 240*320 px
+        layoutDescs_mText1.add(new LayoutDesc(12, 479.0f, 2627.74f, LayoutDesc.NO_VALUE, 321.37f, 104.0f));  // 1080*1920 px
+        layoutDescs_mText1.add(new LayoutDesc(8, 269.0f, 1507.42f, LayoutDesc.NO_VALUE, 180.69f, 62.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText1 = mOverrideElementLayoutDescriptors.get("text1");
             if (override_mText1 != null) {
@@ -1077,10 +1077,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText1, dm, layoutDescs_mText1, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText20 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText20.add(new LayoutDesc(10, 381.0f, 2052.30f, LayoutDesc.NO_VALUE, 446.29f, 40.0f));  // 720*1280 px
-        layoutDescs_mText20.add(new LayoutDesc(2, 165.0f, 909.26f, LayoutDesc.NO_VALUE, 193.98f, 21.0f));  // 240*320 px
-        layoutDescs_mText20.add(new LayoutDesc(12, 480.0f, 2589.74f, LayoutDesc.NO_VALUE, 562.90f, 49.0f));  // 1080*1920 px
-        layoutDescs_mText20.add(new LayoutDesc(8, 270.0f, 1486.42f, LayoutDesc.NO_VALUE, 316.48f, 30.0f));  // 480*800 px
+        layoutDescs_mText20.add(new LayoutDesc(10, 381.0f, 2156.30f, LayoutDesc.NO_VALUE, 446.29f, 40.0f));  // 720*1280 px
+        layoutDescs_mText20.add(new LayoutDesc(2, 165.0f, 955.26f, LayoutDesc.NO_VALUE, 193.98f, 21.0f));  // 240*320 px
+        layoutDescs_mText20.add(new LayoutDesc(12, 480.0f, 2720.74f, LayoutDesc.NO_VALUE, 562.90f, 49.0f));  // 1080*1920 px
+        layoutDescs_mText20.add(new LayoutDesc(8, 270.0f, 1560.42f, LayoutDesc.NO_VALUE, 316.48f, 30.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText20 = mOverrideElementLayoutDescriptors.get("text20");
             if (override_mText20 != null) {
@@ -1097,10 +1097,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText20, dm, layoutDescs_mText20, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mText21 = new ArrayList<LayoutDesc>();
-        layoutDescs_mText21.add(new LayoutDesc(10, 381.0f, 2086.30f, LayoutDesc.NO_VALUE, 260.01f, 40.0f));  // 720*1280 px
-        layoutDescs_mText21.add(new LayoutDesc(2, 166.0f, 924.26f, LayoutDesc.NO_VALUE, 113.01f, 21.0f));  // 240*320 px
-        layoutDescs_mText21.add(new LayoutDesc(12, 481.0f, 2632.74f, LayoutDesc.NO_VALUE, 327.95f, 49.0f));  // 1080*1920 px
-        layoutDescs_mText21.add(new LayoutDesc(8, 270.0f, 1510.42f, LayoutDesc.NO_VALUE, 184.39f, 30.0f));  // 480*800 px
+        layoutDescs_mText21.add(new LayoutDesc(10, 381.0f, 2190.30f, LayoutDesc.NO_VALUE, 260.01f, 40.0f));  // 720*1280 px
+        layoutDescs_mText21.add(new LayoutDesc(2, 166.0f, 970.26f, LayoutDesc.NO_VALUE, 113.01f, 21.0f));  // 240*320 px
+        layoutDescs_mText21.add(new LayoutDesc(12, 481.0f, 2763.74f, LayoutDesc.NO_VALUE, 327.95f, 49.0f));  // 1080*1920 px
+        layoutDescs_mText21.add(new LayoutDesc(8, 270.0f, 1584.42f, LayoutDesc.NO_VALUE, 184.39f, 30.0f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mText21 = mOverrideElementLayoutDescriptors.get("text21");
             if (override_mText21 != null) {
@@ -1117,10 +1117,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mText21, dm, layoutDescs_mText21, true, false);
 
         ArrayList<LayoutDesc> layoutDescs_mHotspot2 = new ArrayList<LayoutDesc>();
-        layoutDescs_mHotspot2.add(new LayoutDesc(10, 372.0f, 1797.30f, LayoutDesc.NO_VALUE, 267.12f, 349.76f));  // 720*1280 px
-        layoutDescs_mHotspot2.add(new LayoutDesc(2, 162.0f, 799.26f, LayoutDesc.NO_VALUE, 116.10f, 152.02f));  // 240*320 px
-        layoutDescs_mHotspot2.add(new LayoutDesc(12, 469.0f, 2268.74f, LayoutDesc.NO_VALUE, 336.92f, 441.14f));  // 1080*1920 px
-        layoutDescs_mHotspot2.add(new LayoutDesc(8, 264.0f, 1305.42f, LayoutDesc.NO_VALUE, 189.43f, 248.03f));  // 480*800 px
+        layoutDescs_mHotspot2.add(new LayoutDesc(10, 372.0f, 1901.30f, LayoutDesc.NO_VALUE, 267.12f, 349.76f));  // 720*1280 px
+        layoutDescs_mHotspot2.add(new LayoutDesc(2, 162.0f, 845.26f, LayoutDesc.NO_VALUE, 116.10f, 152.02f));  // 240*320 px
+        layoutDescs_mHotspot2.add(new LayoutDesc(12, 469.0f, 2399.74f, LayoutDesc.NO_VALUE, 336.92f, 441.14f));  // 1080*1920 px
+        layoutDescs_mHotspot2.add(new LayoutDesc(8, 264.0f, 1379.42f, LayoutDesc.NO_VALUE, 189.43f, 248.03f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mHotspot2 = mOverrideElementLayoutDescriptors.get("hotspot2");
             if (override_mHotspot2 != null) {
@@ -1137,10 +1137,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mHotspot2, dm, layoutDescs_mHotspot2, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mFixedButton = new ArrayList<LayoutDesc>();
-        layoutDescs_mFixedButton.add(new LayoutDesc(10, 252.0f, 2163.06f, LayoutDesc.NO_VALUE, 212.52f, 63.76f));  // 720*1280 px
-        layoutDescs_mFixedButton.add(new LayoutDesc(2, 110.0f, 958.29f, LayoutDesc.NO_VALUE, 92.37f, 27.71f));  // 240*320 px
-        layoutDescs_mFixedButton.add(new LayoutDesc(12, 318.0f, 2730.89f, LayoutDesc.NO_VALUE, 268.05f, 80.41f));  // 1080*1920 px
-        layoutDescs_mFixedButton.add(new LayoutDesc(8, 179.0f, 1565.45f, LayoutDesc.NO_VALUE, 150.71f, 45.21f));  // 480*800 px
+        layoutDescs_mFixedButton.add(new LayoutDesc(10, 252.0f, 2267.06f, LayoutDesc.NO_VALUE, 212.52f, 63.76f));  // 720*1280 px
+        layoutDescs_mFixedButton.add(new LayoutDesc(2, 110.0f, 1004.29f, LayoutDesc.NO_VALUE, 92.37f, 27.71f));  // 240*320 px
+        layoutDescs_mFixedButton.add(new LayoutDesc(12, 318.0f, 2861.89f, LayoutDesc.NO_VALUE, 268.05f, 80.41f));  // 1080*1920 px
+        layoutDescs_mFixedButton.add(new LayoutDesc(8, 179.0f, 1639.45f, LayoutDesc.NO_VALUE, 150.71f, 45.21f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mFixedButton = mOverrideElementLayoutDescriptors.get("fixedButton");
             if (override_mFixedButton != null) {
@@ -1225,10 +1225,10 @@ public class OppDetail3Fragment extends Fragment {
         applyLayoutToView(mIconButton2, dm, layoutDescs_mIconButton2, true, true);
 
         ArrayList<LayoutDesc> layoutDescs_mButton = new ArrayList<LayoutDesc>();
-        layoutDescs_mButton.add(new LayoutDesc(10, 0.0f, 1070.0f, LayoutDesc.NO_VALUE, 724.21f, 120.55f));  // 720*1280 px
-        layoutDescs_mButton.add(new LayoutDesc(2, 0.0f, 465.0f, LayoutDesc.NO_VALUE, 314.78f, 52.40f));  // 240*320 px
-        layoutDescs_mButton.add(new LayoutDesc(12, 0.0f, 1350.0f, LayoutDesc.NO_VALUE, 913.44f, 152.05f));  // 1080*1920 px
-        layoutDescs_mButton.add(new LayoutDesc(8, 0.0f, 759.0f, LayoutDesc.NO_VALUE, 513.57f, 85.49f));  // 480*800 px
+        layoutDescs_mButton.add(new LayoutDesc(10, 0.0f, 1070.0f, LayoutDesc.NO_VALUE, 722.56f, 119.01f));  // 720*1280 px
+        layoutDescs_mButton.add(new LayoutDesc(2, 0.0f, 465.0f, LayoutDesc.NO_VALUE, 314.06f, 51.73f));  // 240*320 px
+        layoutDescs_mButton.add(new LayoutDesc(12, 0.0f, 1350.0f, LayoutDesc.NO_VALUE, 911.36f, 150.11f));  // 1080*1920 px
+        layoutDescs_mButton.add(new LayoutDesc(8, 0.0f, 759.0f, LayoutDesc.NO_VALUE, 512.40f, 84.40f));  // 480*800 px
         if (mOverrideElementLayoutDescriptors != null) {
             HashMap<String, ArrayList<LayoutDesc>> override_mButton = mOverrideElementLayoutDescriptors.get("button");
             if (override_mButton != null) {

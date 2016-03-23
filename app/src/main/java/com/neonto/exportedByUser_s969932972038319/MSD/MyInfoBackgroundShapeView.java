@@ -50,13 +50,13 @@ public class MyInfoBackgroundShapeView extends View {
         
         super.onDraw(canvas);
         
-        canvas.scale(m_realLayoutWidthInPx/720.0f, m_realLayoutHeightInPx/1328.0f);
-        canvas.translate(360.0f, 664.0f);
+        canvas.scale(m_realLayoutWidthInPx/721.0f, m_realLayoutHeightInPx/1328.0f);
+        canvas.translate(360.5f, 664.0f);
         path = new Path();
-        path.moveTo(-360.0f, -664.0f);
-          path.lineTo(360.0f, -664.0f);
-        path.lineTo(360.0f, 664.0f);
-        path.lineTo(-360.0f, 664.0f);
+        path.moveTo(-360.5f, -664.0f);
+          path.lineTo(360.5f, -664.0f);
+        path.lineTo(360.5f, 664.0f);
+        path.lineTo(-360.5f, 664.0f);
         
         path.close();
         paint = new Paint(Paint.ANTI_ALIAS_FLAG);

@@ -18,7 +18,14 @@
         >
 
         <activity
-            android:name=".Screen7Activity"
+            android:name=".OppDetail2Activity"
+            android:label="MSD"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".MyInfoActivity"
             android:label="MSD"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="portrait" >
@@ -32,7 +39,105 @@
         </activity>
         
         <activity
-            android:name=".MyInfoActivity"
+            android:name=".Search1Activity"
+            android:label="MSD"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".MENUActivity"
+            android:label="MSD"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".OppDetail3Activity"
+            android:label="MSD"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".RecomendedActivity"
+            android:label="MSD"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".UpComingActivity"
+            android:label="MSD"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".CompletedActivity"
+            android:label="MSD"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".SavedActivity"
+            android:label="MSD"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".Search2Activity"
+            android:label="MSD"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".ThusWeekActivity"
+            android:label="MSD"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".OppDeatil0Activity"
+            android:label="MSD"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".OppDetail1Activity"
+            android:label="MSD"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".MyOppActivity"
+            android:label="MSD"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".HOMEActivity"
+            android:label="MSD"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".PublicProfileActivity"
+            android:label="MSD"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".EditInfoActivity"
             android:label="MSD"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="portrait" >
@@ -47,41 +152,6 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        
-        <activity
-            android:name=".OppDetail2Activity"
-            android:label="MSD"
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="portrait" >
-        </activity>
-        
-        <activity
-            android:name=".OppDetail3Activity"
-            android:label="MSD"
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="portrait" >
-        </activity>
-        
-        <activity
-            android:name=".HOMEActivity"
-            android:label="MSD"
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="portrait" >
-        </activity>
-        
-        <activity
-            android:name=".MENUActivity"
-            android:label="MSD"
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="portrait" >
-        </activity>
-        
-        <activity
-            android:name=".OppDetail1Activity"
-            android:label="MSD"
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="portrait" >
         </activity>
         
     <meta-data

@@ -17,7 +17,7 @@ public class HOMEImageView extends FrameLayout {
 
     private ImageView m_image;
     // This value represents scaling applied to the image by Neonto Studio on export.
-    private float m_contentOriginalScale = 0.465781410f;
+    private float m_contentOriginalScale = 0.577931034f;
     
 
     private boolean m_imageOverriden = false;
@@ -125,8 +125,8 @@ public class HOMEImageView extends FrameLayout {
         float sc, contentSc;
         
         d = m_image.getDrawable();
-        contentW = 912;
-        contentH = 338;
+        contentW = 1132;
+        contentH = 419;
         contentSc = (float)d.getIntrinsicWidth() / contentW;
         sc = layoutSc / contentSc;
         

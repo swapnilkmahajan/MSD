@@ -28,10 +28,10 @@
         android:weightSum="1">
             <com.neonto.exportedByUser_s969932972038319.MSD.OppDetail3ImageView
                 android:layout_width="725.0px"
-                android:layout_height="276.0px"
+                android:layout_height="332.0px"
                 android:id="@+id/mImage"
                 android:layout_marginLeft="0.0mm"
-                android:layout_marginTop="8.66mm"
+                android:layout_marginTop="12.62mm"
             />
     
             <TextView
