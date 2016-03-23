@@ -17,4 +17,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_checked="true" android:drawable="@drawable/abc_btn_switch_to_on_mtrl_00012" />
     <item android:drawable="@drawable/abc_btn_switch_to_on_mtrl_00001" />
-</selector><!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/drawable/abc_switch_thumb_material.xml -->
+</selector><!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_switch_thumb_material.xml -->

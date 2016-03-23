@@ -7,4 +7,4 @@
     <item android:state_selected="true" android:color="@color/wallet_bright_foreground_holo_light"/>
     <item android:color="@color/wallet_bright_foreground_holo_light"/> <!-- not selected -->
 </selector>
-<!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/google_play_services/google-play-services_lib/src/main/res/color/wallet_primary_text_holo_light.xml --><!-- From: file:/Users/xinyandeng/Documents/Neonto%20Studio/Works%20In%20Progress%20(Android)/MSD%20(MSD2)/app/build/intermediates/exploded-aar/MSD%20(MSD2).google_play_services/google-play-services_lib/unspecified/res/color/wallet_primary_text_holo_light.xml -->
+<!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/google_play_services/google-play-services_lib/src/main/res/color/wallet_primary_text_holo_light.xml --><!-- From: file:/C:/Users/Swapnil/Downloads/MSD%20(MSD2)/app/build/intermediates/exploded-aar/MSD%20(MSD2).google_play_services/google-play-services_lib/unspecified/res/color/wallet_primary_text_holo_light.xml -->
